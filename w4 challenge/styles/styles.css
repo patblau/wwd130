@@ -23,6 +23,11 @@ h1 class {
     text-align: left;
 }
 
+.container{
+  width:min(900px, 86%);
+  margin:0 auto; /* centers the block; shared left edge */
+}
+
 h1 class:hover { 
     color: black;
     cursor: pointer;

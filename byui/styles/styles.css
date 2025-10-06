@@ -1,5 +1,5 @@
 img {
-    width: 80%;
+    width: 30%;
 }
 
 a {
@@ -8,4 +8,7 @@ a {
 
 a {
     font-size: 1.5em;
+}
+img {
+    width: 30%;
 }

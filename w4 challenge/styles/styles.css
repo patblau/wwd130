@@ -13,5 +13,12 @@ h1 {
 }
 
 h1:hover {
-    color: #FFD700; /* Gold color on hover */
+    color: black;
+}
+
+image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 20px 0px;
 }

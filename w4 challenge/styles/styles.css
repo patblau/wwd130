@@ -2,13 +2,15 @@ img {
     width: 20%; 
 }
 
+title
+
 body {
     background-color: #3396D3; /* summer sky blue from colorhung.co */
     color: white;
     font-family: Arial, sans-serif; 
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 h1 {

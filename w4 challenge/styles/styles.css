@@ -2,7 +2,13 @@ img {
     width: 20%; 
 }
 
-title
+title {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease; /* For color change */
+    margin-bottom: 10px;
+}
 
 body {
     background-color: #3396D3; /* summer sky blue from colorhung.co */
@@ -21,7 +27,7 @@ header {
 
 h1 {
     color: white;
-    transition: color 03s ease; /* For smooth color change */
+    transition: color 03s ease; /* For color change */
 }
 
 h1:hover {

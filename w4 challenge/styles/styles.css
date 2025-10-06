@@ -8,7 +8,11 @@ title {
     font-weight: bold;
     transition: color 0.3s ease; /* For color change */
     margin-bottom: 10px;
+    font-align: left;
 }
+
+title:hover {
+    color: black;
 
 body {
     background-color: #3396D3; /* summer sky blue from colorhung.co */
@@ -25,13 +29,7 @@ header {
     color: #F0F0F0; /* Light grey from colorhung.co */
 }
 
-h1 {
-    color: white;
-    transition: color 03s ease; /* For color change */
-}
 
-h1:hover {
-    color: black;
 }
 
 image {

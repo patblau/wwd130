@@ -14,21 +14,22 @@ body {
     text-align: center;
 }
 
-h1 class {
-    font-size: 5em;
-    color:#F0F0F0; 
-    font-weight: bold;
-    transition: color 0.3s ease; /* For transition */
-    margin-bottom: 10px;
-    text-align: left;
-}
-
 .container{
   width:min(900px, 86%);
   margin:0 auto; /* centers the block; shared left edge */
 }
 
-h1 class:hover { 
+h1.title {
+    font-family: "arial Black", Impact, system-ui, sans-serif;
+    font-size: 5em;
+    color:#F0F0F0; 
+    font-weight: bold;
+    transition: color 0.3s ease; /* For transition */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1.title:hover { 
     color: black;
     cursor: pointer;
 

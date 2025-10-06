@@ -1,3 +1,15 @@
 body {
-  background-color: #3396D3;
+    background-color: #3396D3; /* summer sky blue from colorhung.co */
+    color: white;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
+h1 {
+    color: white;
+    transition: color 03s ease; /* For smooth color change */
+}
+
+h

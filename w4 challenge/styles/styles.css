@@ -2,6 +2,15 @@ img {
     width: 20%; 
 }
 
+body {
+    background-color: #3396D3; /* summer sky blue from colorhung.co */
+    color: white;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
 header h1 {
     font-size: 3em;
     color: white;
@@ -13,15 +22,7 @@ header h1 {
 
 header h1:hover {
     color: black;
-
-body {
-    background-color: #3396D3; /* summer sky blue from colorhung.co */
-    color: white;
-    font-family: Arial, sans-serif; 
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-}
+    cursor: pointer;
 
 header {
     text-align: center;
@@ -29,8 +30,6 @@ header {
     color: #F0F0F0; /* Light grey from colorhung.co */
 }
 
-
-}
 
 image {
     width: 20%;

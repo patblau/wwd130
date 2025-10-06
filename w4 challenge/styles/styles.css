@@ -22,3 +22,9 @@ image {
     border-radius: 8px; 
     box-shadow: 20px 0px;
 }
+
+footer {
+    font-size: 0.9em;
+    color: #F0F0F0; /* Light grey from colorhung.co */
+    margin-top: 30px;
+}

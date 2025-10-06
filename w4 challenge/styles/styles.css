@@ -13,6 +13,12 @@ body {
     padding: 20px;
 }
 
+header {
+    text-align: center;
+    font-size: 0.9em;
+    color: #F0F0F0; /* Light grey from colorhung.co */
+}
+
 h1 {
     color: white;
     transition: color 03s ease; /* For smooth color change */

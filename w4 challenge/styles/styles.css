@@ -1,26 +1,29 @@
+*{ box-sizing:border-box; }
+
 img {
     width: 20%; 
 }
 
 body {
     background-color: #3396D3; /* summer sky blue from colorhung.co */
-    color: white;
+    color:#F0F0F0; /* Light grey from colorhung.co */
     font-family: Arial, sans-serif; 
     text-align: center;
     margin: 0;
     padding: 20px;
+    text-align: center;
 }
 
-header h1 {
+h1 class {
     font-size: 5em;
-    color:#F0F0F0; /* Light grey from colorhung.co */
+    color:#F0F0F0; 
     font-weight: bold;
-    transition: color 0.3s ease; /* For color change */
+    transition: color 0.3s ease; /* For transition */
     margin-bottom: 10px;
     text-align: left;
 }
 
-header h1:hover {
+h1 class:hover { 
     color: black;
     cursor: pointer;
 

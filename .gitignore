@@ -1,0 +1,8 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore temporary Office files
+~$*
+
+# Ignore build files or node modules (if any)
+node_modules/

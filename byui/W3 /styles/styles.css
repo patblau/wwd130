@@ -1,0 +1,17 @@
+/* make paragraph in the main section bigger and with more line-height */
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/* home page link has a different background color and text color */
+#active {
+    background-color: white;
+    color: steelblue;
+}
+
+/*make the home page link has a different background color and text color*/
+#active {
+    background-color: white;
+    color: steelblue;
+}

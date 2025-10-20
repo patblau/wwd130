@@ -66,6 +66,15 @@ nav a:hover{
   .button-box {text-align: center; }
 }
 
+/*Font sizes*/
+/* Headings foreground */
+.home-title{ color: var(--primary); font-size: 2em; margin-top: 10px; }
+h4{ 
+color: var(--accent2); 
+font-family: "Bradley Hand", "Patrick Hand", cursive;
+}
+
+
 /* Main Section */
 main section{
   text-align: center;
@@ -136,4 +145,3 @@ footer a:hover{
 footer p a:hover{          
   text-decoration: underline;
 }
-

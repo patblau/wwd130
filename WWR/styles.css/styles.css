@@ -1,16 +1,21 @@
 /*Color Variables*/
 :root{
-  --primary:#396E94;   /* deep steel-blue */
-  --secondary:#0F9ED5; /* river blue */
-  --accent1:#A43312;   /* rust red */
-  --accent2:#3C7D22;   /* forest green */
-  --accent3:#E3642A;   /* orange */
-  --accent4:#49A443;   /* bright green */
-  --paper:#FFFFFF;     /* white */
-  --ink:#050300;       /* near black */
-  --sand:#EFA765;      /* warm sand */
-  --teal:#63A7A9;      /* soft teal */
-}
+  --primarty:#145169;     /* headline color on white */
+  --teal:#63A7A9;         /* headline color on color */
+  --ink:#050300;          /* paragraph text color-on-white */
+  --paper:#FFFFFF;        /* paragraph text color on color */
+  --secondary:#0F9ED5;    /* paragraph background color */
+  --paper:#FFFFFF;        /* nav link color*/  
+  --paper:#FFFFFF;        /* nav hover link color*/
+  --primarty:#145169;     /*nav background color*/
+  --secondary:#0F9ED5;    /*nav hover color */
+  --teal:#63A7A9;         /*nav background color */
+  --accent1:#A43312;      /* nav background color */
+  --accent3:#E3642A;      /*nav-background-color*/
+  --accent2:#3C7D22;       /*nav-background-color*/
+  --accent4:#49A443;      /*nav-background-color*/
+  --sand:#EFA765;         /*nav-background-color*/
+  }
 
 /* Base styles */
 body{

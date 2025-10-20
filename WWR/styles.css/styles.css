@@ -116,6 +116,7 @@ h4{ color: var(--accent2); }
 
 /* Message card area */
 .msg{
+  .card-img{ border: 10px solid var(--primary);}
   background-color: var(--sand); 
   color: var(--ink);            
   padding: 1rem 1.25rem;

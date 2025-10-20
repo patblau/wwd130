@@ -123,6 +123,7 @@ h4{ color: var(--accent2); }
   border-radius: .75rem;
   margin: 1rem auto;
   max-width: 900px;
+  line-height: 1.5em;
 }
 
 .msg h2{ color: var(--accent1); } 

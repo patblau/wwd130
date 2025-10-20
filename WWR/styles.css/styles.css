@@ -141,6 +141,8 @@ h4{ color: var(--accent2); }
   border-radius: .6rem;
   display: inline-block;
   font-weight: 700;
+  margin-top: 50px; 
+ 	display: inline-block
 }
 
 .book:hover,

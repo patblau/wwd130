@@ -17,8 +17,10 @@ body{
   background-color: var(--paper);
   color: var(--ink);
   margin: 0;
+  padding: 0;
   font-family: "Al Bayan","Noto Sans",system-ui,"Segoe UI",Arial,sans-serif;
   line-height: 1.6;
+  background-color: var(--paper);
 }
 
 #content{

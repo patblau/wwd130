@@ -9,7 +9,7 @@
   --paper:#FFFFFF;     /* white */
   --ink:#050300;       /* near black */
   --sand:#EFA765;      /* warm sand */
-  --teal:#63A7A9;      /* soft teal *
+  --teal:#63A7A9;      /* soft teal */
 }
 
 /* Base styles */
@@ -74,7 +74,6 @@ color: var(--accent2);
 font-family: "Bradley Hand", "Patrick Hand", cursive;
 }
 
-
 /* Main Section */
 main section{
   text-align: center;
@@ -83,14 +82,16 @@ main section{
   padding: 1.25rem 0;
 }
 
+/* Message + Background Container  */
+/* add empty <div id="background"></div> under the section, above the image*/
 .home-title{ color: var(--primary); }
 h4{ color: var(--accent2); }
-
-#background{
+  #background{
   height: 725px;                 
-  background-color: var(--teal); 
+  background-color: var(--teal); /* background */
 }
 
+/* Message card area */
 .msg{
   background-color: var(--sand); 
   color: var(--ink);            
@@ -144,4 +145,4 @@ footer a:hover{
 
 footer p a:hover{          
   text-decoration: underline;
-}
+} 

@@ -157,6 +157,9 @@ footer{
   color: var(--paper);              
   padding: 1.5rem 1rem;
   text-align: center;
+  padding: 25px 50px;
+  margin-top: 200px;
+
 }
 
 footer p{

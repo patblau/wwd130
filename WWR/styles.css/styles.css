@@ -17,7 +17,13 @@
   --sand:#EFA765;         /*nav-background-color*/
   }
 
-/* Base styles */
+#content{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px; /* comfy side padding */
+}
+
+  /* Base styles */
 body{
   background-color: var(--paper);
   color: var(--ink);
@@ -28,12 +34,7 @@ body{
   background-color: var(--paper);
 }
 
-#content{
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 20px; /* comfy side padding */
-}
-
+/* Header and Navigation */
 header{
   background-color: rgba(57,110,148,.85); /* var(--primary) w/ transparency */
   color: var(--paper);
@@ -54,6 +55,7 @@ nav a:hover{
   text-decoration: none;              
 }
 
+/* Logo and Icon Sizes */
 .logo{ width: 80px; }  
 .icon{ width: 80px; }  
 
@@ -109,6 +111,7 @@ h4{ color: var(--accent2); }
 .msg h2{ color: var(--accent1); } 
 .msg p { color: var(--ink); }  
 
+/* Buttons */
 .book,
 .join{
   background-color: var(--accent3); 
@@ -126,6 +129,7 @@ h4{ color: var(--accent2); }
   color: var(--paper);              
 }
 
+/* Footer */
 footer{
   background-color: var(--primary); 
   color: var(--paper);              

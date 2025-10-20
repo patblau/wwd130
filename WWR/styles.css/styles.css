@@ -44,6 +44,8 @@ h2 {
   a:hover{ color: var(--primary); }
 }
 
+.rivers-card, .camping-card, .rapids-card{ margin: 200px 0; } 
+
 /* Header and Navigation */
 header{
   background-color: rgba(57,110,148,.85); /* var(--primary) w/ transparency */

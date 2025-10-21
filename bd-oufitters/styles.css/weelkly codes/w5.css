@@ -1,20 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Patrick+Hand&display=swap');
 
-/*BD Outfitters site Outline*?
-
-/*Fonts
-Al Bayan
-Cavolini
-Bradley Hand
-Big Caslon
-Bookman Old Style
-*/
-/*Color Palette from Coolors
-Uf="https://coolors.co/fffbfe-145169-e3642a-efa765-63a7a9-49a443-3e6b3b"
-
 /*Color Variables*/
-:root{		
-
+:root{
   --primarty:#145169;     /* headline color on white */
   --teal:#63A7A9;         /* headline color on color */
   --ink:#050300;          /* paragraph text color-on-white */
@@ -25,7 +12,6 @@ Uf="https://coolors.co/fffbfe-145169-e3642a-efa765-63a7a9-49a443-3e6b3b"
   --primarty:#145169;     /*nav background color*/
   --secondary:#0F9ED5;    /*nav hover color */
   --teal:#63A7A9;         /*nav background color */
-  
   --accent1:#A43312;      /* nav background color */
   --accent3:#E3642A;      /*nav-background-color*/
   --accent2:#3C7D22;       /*nav-background-color*/

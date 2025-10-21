@@ -1,0 +1,166 @@
+:root{
+  --primary:#396E94;
+  --secondary:#0F9ED5;
+  --accent1:#A43312;
+  --accent2:#3C7D22;
+  --accent3:#E3642A;
+  --accent4:#49A443;
+  --paper:#FCFBFB;
+  --ink:#050300;
+  --sand:#EFA765;
+  --teal:#63A7A9;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  background-color:var(--paper);
+  color:var(--ink);
+  font-family:"Al Bayan","Noto Sans",system-ui,"Segoe UI",Arial,sans-serif;
+  line-height:1.6;
+}
+
+#content{
+  max-width:1600px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+header{
+  background-color:rgba(57,110,148,0.75);
+  color:#fff;
+}
+
+nav{
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:10px 0 14px;
+}
+
+nav a{
+  text-align:center;
+  color:#FCFBFB;
+  text-decoration:none;
+  padding:8px 12px;
+  border-radius:8px;
+  display:inline-block;
+}
+
+nav a:hover{
+  background-color:var(--ink);
+  color:#d9c2a3;
+}
+
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section{
+  text-align:center;
+}
+
+#hero-img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.logo{width:80px;height:auto;}
+.icon{width:80px;height:auto;}
+
+#background{
+  height:725px;
+  background-color:var(--sand);
+}
+
+.msg{
+  background-color:rgba(255,255,255,0.92);
+  color:var(--ink);
+  max-width:900px;
+  margin:-620px auto 40px;
+  padding:28px 28px 32px;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.msg h2{
+  margin-top:0;
+  color:var(--primary);
+}
+
+.msg p{
+  margin-bottom:18px;
+  color:var(--ink);
+}
+
+.button-box{margin:18px 0;}
+
+.book,.join{
+  display:inline-block;
+  background-color:var(--accent3);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 18px;
+  border-radius:999px;
+  font-weight:600;
+  transition:transform 120ms ease,background-color 120ms ease;
+}
+
+.book:hover,.join:hover{
+  background-color:var(--secondary);
+  color:#fff;
+  transform:translateY(-1px);
+}
+
+.rapids-card{
+  position:relative;
+  padding:18px 12px 28px;
+}
+
+.card-img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:14px;
+}
+
+footer{
+  background-color:var(--primary);
+  color:#fff;
+  padding:24px 20px;
+  margin-top:40px;
+}
+
+footer p{
+  margin:.4em 0;
+  font-size:1.2em;
+}
+
+footer a{
+  color:#fff;
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+  transition:border-color 120ms ease;
+}
+
+footer p a:hover{
+  text-decoration:underline;
+}
+
+main{
+  display:block;
+  margin-bottom:32px;
+}
+
+.mountains{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:14px;
+  margin:16px 0 0;
+}
+
+.home-title{color:var(--primary);}
+h4{color:var(--teal);}

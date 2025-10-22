@@ -85,10 +85,9 @@ nav a {
   background-color: var(--bg-color);
 }
 
-nav a:hover,
-nav a:focus {
-  color: var(--primary);
-  text-decoration: underline;
+nav a:hover {
+  background-color: var(--hover);
+  color: var(--ink);
 }
  
 

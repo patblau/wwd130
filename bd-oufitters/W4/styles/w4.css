@@ -1,18 +1,20 @@
+/* --- Color variables (your site plan palette) --- */
 :root{
-  --primary:#396E94;
-  --secondary:#0F9ED5;
-  --accent1:#A43312;
-  --accent2:#3C7D22;
-  --accent3:#E3642A;
-  --accent4:#49A443;
-  --paper:#FCFBFB;
-  --ink:#050300;
-  --sand:#EFA765;
-  --teal:#63A7A9;
+  --primary:#396E94;   /* deep steel-blue */
+  --secondary:#0F9ED5; /* river blue */
+  --accent1:#A43312;   /* rust red */
+  --accent2:#3C7D22;   /* forest green */
+  --accent3:#E3642A;   /* orange (buttons) */
+  --accent4:#49A443;   /* bright green */
+  --paper:#FCFBFB;     /* page bg */
+  --ink:#050300;       /* near-black */
+  --sand:#EFA765;      /* tan band */
+  --teal:#63A7A9;      /* soft teal */
 }
 
-*{box-sizing:border-box;}
+*{ box-sizing:border-box; }
 
+/* 12) Background color for body */
 body{
   margin:0;
   background-color:var(--paper);
@@ -21,39 +23,65 @@ body{
   line-height:1.6;
 }
 
+/* 8–9) Max width + centering for the whole page */
 #content{
   max-width:1600px;
-  margin:0 auto;
+  margin:0 auto;   /* centers on large screens */
   padding:0 20px;
 }
 
+/* Header */
 header{
+  /* 12) translucent header to eventually show hero through */
   background-color:rgba(57,110,148,0.75);
   color:#fff;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:8px 12px;
 }
+
+.logo{ width:80px; height:auto; }          /* 14) width for logo */
+.icon{ width:80px; height:auto; }          /* 14) width for icons */
 
 nav{
   display:flex;
   gap:16px;
   flex-wrap:wrap;
   justify-content:center;
-  padding:10px 0 14px;
+  margin-left:auto;
+  padding:8px 0;
 }
 
+/* 10 & 15) center and remove underline for nav links */
 nav a{
   text-align:center;
-  color:#FCFBFB;
-  text-decoration:none;
+  color:#FCFBFB;              /* 13) foreground */
+  text-decoration:none;       /* 15) no underline */
   padding:8px 12px;
   border-radius:8px;
   display:inline-block;
 }
 
+/* 12–13) hover bg + readable text */
 nav a:hover{
   background-color:var(--ink);
-  color:#d9c2a3;
+  color:#d9c2a3;              /* warm sand-like text on hover */
 }
 
+/* Hero */
+#hero{
+  position:relative;
+}
+
+/* 14) responsive hero image id=hero-img */
+#hero-img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+/* Center hero headings + CTA (step 10) */
 #hero-msg h1,
 #hero-msg h4,
 .button-box,
@@ -61,51 +89,21 @@ main section{
   text-align:center;
 }
 
-#hero-img{
-  width:100%;
-  height:auto;
-  display:block;
-}
+.home-title{ color:var(--primary); } /* 13 */
+h4{ color:var(--teal); }             /* 13 */
 
-.logo{width:80px;height:auto;}
-.icon{width:80px;height:auto;}
+.button-box{ margin:18px 0; }
 
-#background{
-  height:725px;
-  background-color:var(--sand);
-}
-
-.msg{
-  background-color:rgba(255,255,255,0.92);
-  color:var(--ink);
-  max-width:900px;
-  margin:-620px auto 40px;
-  padding:28px 28px 32px;
-  border-radius:16px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.15);
-}
-
-.msg h2{
-  margin-top:0;
-  color:var(--primary);
-}
-
-.msg p{
-  margin-bottom:18px;
-  color:var(--ink);
-}
-
-.button-box{margin:18px 0;}
-
+/* 12–13, 15) button styles + hover */
 .book,.join{
   display:inline-block;
   background-color:var(--accent3);
   color:#fff;
-  text-decoration:none;
+  text-decoration:none;  /* remove underline on buttons */
   padding:10px 18px;
   border-radius:999px;
   font-weight:600;
-  transition:transform 120ms ease,background-color 120ms ease;
+  transition:transform 120ms ease, background-color 120ms ease;
 }
 
 .book:hover,.join:hover{
@@ -114,11 +112,7 @@ main section{
   transform:translateY(-1px);
 }
 
-.rapids-card{
-  position:relative;
-  padding:18px 12px 28px;
-}
-
+/* Cards */
 .card-img{
   width:100%;
   height:auto;
@@ -126,34 +120,15 @@ main section{
   border-radius:14px;
 }
 
-footer{
-  background-color:var(--primary);
-  color:#fff;
-  padding:24px 20px;
-  margin-top:40px;
+.rapids-card{ padding:18px 12px 28px; }
+
+/* 11–12) background band behind message */
+#background{
+  height:725px;              /* required by the step */
+  background-color:var(--sand);
 }
 
-footer p{
-  margin:.4em 0;
-  font-size:1.2em;
-}
-
-footer a{
-  color:#fff;
-  text-decoration:none;
-  border-bottom:1px solid transparent;
-  transition:border-color 120ms ease;
-}
-
-footer p a:hover{
-  text-decoration:underline;
-}
-
-main{
-  display:block;
-  margin-bottom:32px;
-}
-
+/* Scenic image */
 .mountains{
   width:100%;
   height:auto;
@@ -162,5 +137,47 @@ main{
   margin:16px 0 0;
 }
 
-.home-title{color:var(--primary);}
-h4{color:var(--teal);}
+/* Message card */
+.msg{
+  background-color:rgba(255,255,255,0.92); /* 12 */
+  color:var(--ink);                         /* 13 */
+  max-width:900px;
+  margin:-620px auto 40px;  /* pulls card up into the tan band */
+  padding:28px 28px 32px;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.msg h2{ margin-top:0; color:var(--primary); } /* 13 */
+.msg p{ margin-bottom:18px; color:var(--ink); } /* 13 */
+
+/* Footer */
+footer{
+  background-color:var(--primary); /* 12 */
+  color:#fff;                      /* 13 */
+  padding:24px 20px;
+  margin-top:40px;
+  display:grid;
+  grid-template-columns: 1fr auto;
+  align-items:center;
+  gap:16px;
+}
+
+footer p{
+  margin:.4em 0;
+  font-size:1.2em; /* 15) bigger footer text */
+}
+
+footer a{
+  color:#fff;              /* 13 */
+  text-decoration:none;    /* 15 remove underline by default */
+  border-bottom:1px solid transparent;
+  transition:border-color 120ms ease;
+}
+
+footer p a:hover{
+  text-decoration:underline; /* 15 add underline on hover */
+}
+
+.socials { display:flex; gap:10px; }
+.social { width:40px; height:auto; }

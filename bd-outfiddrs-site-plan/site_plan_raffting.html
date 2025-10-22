@@ -102,16 +102,16 @@
 
     <table class="colors">
       <tr>
-        <th>#396E94</td> <!-- Midnight green (text & outlines) -->			
+        <th>#396E94</th> <!-- Midnight green (text & outlines) -->			
         <th>#0F9ED5</th> <!--turquois-->			
         <th>#63A7A9</th> <!--Verdigris-->			
-        <th>#3C7D22</td> <!-- Forest Green -->			
-        <th>#49A443</td> <!-- Pigment Green -->			
-        <th>#FBE8C5</td> <!-- tan -->			
-        <th>#FFFFF</td>  <!-- Snow-->			
-        <th>#EFA765</td> <!-- Sandy brown -->			
-        <th>#E3642A</td> <!-- Flame -->			
-        <th>#A43312</td> <!-- Hunter Green -->			
+        <th>#3C7D22</th> <!-- Forest Green -->			
+        <th>#49A443</th> <!-- Pigment Green -->			
+        <th>#FBE8C5</th> <!-- tan -->			
+        <th>#FFFFFF</th> <!-- Snow-->			
+        <th>#EFA765</th> <!-- Sandy brown -->			
+        <th>#E3642A</th> <!-- Flame -->			
+        <th>#A43312</th> <!-- Hunter Green -->			
         <th>#050300</th> <!-- Black -->			
 
       </tr>
@@ -124,7 +124,7 @@
         <td class="accent2">#3C7D22</td> 		
         <td class="accent3">#49A443</td> 		
         <td class="accent4">#FBE8C5</td> 		
-        <td class="accent5">#FFFFF0</td> 		
+        <td class="accent5">#FFFFFF</td> 		
         <td class="accent6">#EFA765</td> 		
         <td class="accent7">#E3642A</td>		
         <td class="accent8">#A43312</td>		
@@ -134,38 +134,148 @@
 
     <!-- ------------------------Steps 10-12------------------------------ -->
 
-    <h3>Typography</h3>
-<!-- Fonts Families used --> 
-<!-- Bradley Hand, Al Bayan, Cavolini,;-->
-<!--Altos Mono, Al Bayan, Consolas;-->  
-<!--Cavolini, Menlo, Chalkboard;-->  
-<!--Big Caslon, Baskerville;-->  
+  <!-- Fonts Families used --> 
+  <!-- Bradley Hand, Al Bayan, Cavolini,;-->
+  <!--Altos Mono, Al Bayan, Consolas;-->  
+  <!--Cavolini, Menlo, Chalkboard;-->  
+  <!--Big Caslon, Baskerville;--> 
 
-<!-- Heading and paragraph font setup -->
+<!-- Follow the instructions on the activity in Canvas then return and replace the font names and 
+descriptions below with the fonts you have chosen.  You should have at least one heading font 
+and one paragraph font but do not have to fill in all 4 if you do not need them. -->
+
+<!-- Headings: Altos Mono, Al Bayan, Consolas, color: #145169, 
+ body: Cavolini, Menlo, Chalkboard, color: #050300 -->
+<div class="type-demo">
+<h3>Typography</h3>
+
+<!-- Paragraphs: Altos Mono, Al Bayan, Consolas, color: #050300 -->
 
 <style>
-  /* Headings: Bradley Hand, bold, #145169 */
-  h3, h4 {
-    font-family: Bradley Hand, Al Bayan, Cavolini, sans-serif;
-    font-weight: bold;
-    background-color: #145169;
-    color: white
+/* Heading and paragraph font setup */
+
+/* Example */
+body{
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Header with 0.8 transparency */
+/* color: #145169)*/
+/* Bradley Hand,Bookman Old Style, serif; */
+header { 
+background: rgba(20,81,105,0.8);
+  color: var(--white);
+}
+
+/* Buttons demo */
+.button-primary{
+  background: var(--flame);
+  color: var(--white);
+}
+
+.button-primary:hover{
+  background: var(--secondary);
+}
+
+/* Links */
+  a{ color: var(--brand); }
+  a:hover{ color: var(--secondary);
+  text-decoration: underline; 
   }
 
-  /* Paragraphs: Al Bayan, regular, #145169 */
-  p {
-    font-family: Altos Mono, Al Bayan, Consolas, ;
-    font-weight: normal;
-    color: #050300;
-  }
+body
+  {margin:0;
+  padding:0;
+  background:
+  var(--paper);color:var(--ink);
+}
 
-  /* Example for a "colored" paragraph class */
-  p.colored {
-    background-color: #396E94; /* light aqua background for contrast */
-    color: white;
-    padding: 8px;
-    border-radius: 4px;
-  }
+main{padding:16px 20px;
+  line-height:1.6;
+}
+
+/* Headings: Bradley Hand, bold, #145169, moto */
+h1 {  
+  font-family: "Bradley Hand", "Al Bayan", Cavolini, sans-serif;
+  font-weight: normal;
+  background-color: #145169;
+  color: white;
+  margin: 0.5em 0;
+  padding: 0.25em;
+  font-size: 2.5em;
+}
+
+/* Headings: Bradley Hand, bold, #145169, link, hover */
+h2 {  
+  font-family: "Bradley Hand", "Al Bayan", Cavolini, sans-serif;
+  font-weight: normal;
+  color:var(--brand);
+  margin:.8em 0 .4em;
+  margin: 0.5em 0;
+  padding: 0.25em;
+  font-size: 2em;
+}
+
+h2 a hover{
+  font-family: "Bradley Hand", "Al Bayan", Cavolini, sans-serif;
+  font-weight: normal;
+  color:var(--brand);
+  margin:.8em 0 .4em;
+  margin: 0.5em 0;
+  padding: 0.25em;
+  font-size: 2em;
+}
+
+/* Headings: Bradley Hand, bold, #145169, name*/
+h3 {
+  font-family: "Al Bayan", "Bradley Hand", Cavolini, sans-serif;
+  font-weight: bold;
+  background-color: #145169;
+  color: white;
+  margin: 0.5em 0;
+  padding: 0.25em;
+}
+
+/* Headings: Bradley Hand, bold, #145169, headings*/
+h3 a {
+  font-family: "Bookman Old Style", serif, "Bradley Hand";
+  font-weight: bold;
+  background-color: #145169;
+  color: white;
+  margin: 0.5em 0;
+  padding: 0.25em;
+}
+
+p{
+  font-family:Helvetica, Arial, sans-serif;
+  color:var(--ink);margin:.5em 0;
+}
+
+a{color:var(--brand);text-decoration:none;}
+a:hover{text-decoration:underline;}
+img{max-width:100%;height:auto;display:block;}
+hr{border:none;border-top:1px solid #ddd;margin:20px 0;}
+
+
+} 
+
+/* Heading: link and hover*/
+
+/* Paragraphs: Al Bayan, regular, #050300 */
+p {
+  font-family: "Altos Mono", "Al Bayan", Consolas, monospace;
+  font-weight: normal;
+  color: #050300;
+}
+
+/* Example for a "colored" paragraph class */
+p.colored {
+  background-color: #396E94; /* light aqua background for contrast */
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
 </style>
 
 <h4>Bradley Hand</h4>

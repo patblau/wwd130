@@ -30,6 +30,8 @@
 html { scroll-behavior: smooth; }
 
 /* Base styles */
+
+
 body {
   background-color: var(--paper);
   color: var(--ink);

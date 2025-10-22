@@ -30,7 +30,12 @@
 html { scroll-behavior: smooth; }
 
 /* Base styles */
-
+#content{max-width:1600px;
+  margin:0 auto;}
+body{background:#FFFBFE;}
+img{display:block;
+  max-width:100%;
+  height:auto}
 
 body {
   background-color: var(--paper);
@@ -53,6 +58,12 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;         /* space between links */
+  margin-right: 1rem;
 }
 
 nav a {

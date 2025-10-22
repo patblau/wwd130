@@ -1,93 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Drop Outfitters</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Drop Outfitters</title>
+
+  <!-- 4) External stylesheet in the <head> -->
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="content">
-        <header>
-</body>
+
+  <!-- 6) Page container that we’ll center & max-width in CSS -->
+  <div id="content">
+
+    <!-- Header / Nav -->
     <header>
-        <a href="index.html" id="logo_link">
-            <img class="logo" src="images/logo.png" alt="Big Drop Outfitters Logo" width="240" height="240">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="https://patblau.github.io/WWR/"target="_blank">Page 2</a>
-            <a href="https://patblau.github.io/WWR/"target="_blank">Page 3</a>
-            <a href="https://patblau.github.io/WWR/"target="_blank">Page 4</a>
-        </nav>
+      <a href="index.html" id="logo_link" aria-label="Home">
+        <img class="logo" src="images/logo.png" alt="Big Drop Outfitters logo">
+      </a>
+
+      <nav>
+        <!-- 1) Internal links in <nav> -->
+        <a href="index.html">Home</a>
+        <a href="rivers.html">Rivers</a>
+        <a href="camping.html">Camping</a>
+        <a href="rapids.html">Rapids</a>
+      </nav>
     </header>
 
-        <!-- HERO SECTION -->
-
-    <div id="hero">
-        <div class="hero-box">
-            <img id="hero-image" src="images/canoe.jpg" alt="People enjoying rafting">
-        </div>
-
-    <section id="hero-msg">
+    <!-- Hero -->
+    <section id="hero">
+      <img id="hero-img" src="images/canoe.jpg" alt="Friends paddling a canoe on a mountain lake">
+      <div id="hero-msg">
         <h1 class="home-title">Having big adventures together.</h1>
         <h4>Every splash tells a story.</h4>
         <div class="button-box">
-            <a class="book" href="contactus.html">Book Now</a>
+          <a class="book" href="contactus.html">Book Now</a>
         </div>
+      </div>
     </section>
-</div>
 
-<main class="home-grid"> 
-    <section class="rivers-card">
-        <img class="card-img" src="images/rivers2.jpg" alt="river in forest">
+    <!-- Three feature cards -->
+    <main>
+      <section class="rivers-card">
+        <img class="card-img" src="images/rivers2.jpg" alt="Forest river">
         <img class="icon" src="images/river_icon.png" alt="river icon">
         <h2>Rivers</h2>
-    </section>
-   
-    <section class="camping-card">
-        <img class="card-img" src="images/camping_tent.jpg" alt="tent in mountains" width="288" height="480">
-        <img class="icon" src="images/fire_icon.png" alt="fire icon">
+      </section>
+
+      <section class="camping-card">
+        <img class="card-img" src="images/camping_tent.jpg" alt="Tent in the mountains">
+        <img class="icon" src="images/fire_icon.png" alt="campfire icon">
         <h2>Camping</h2>
-    </section>
-    
-    <section class="rapids-card">
-        <img class="card-img" src="images/hero.jpg" alt="rafting boat">
+      </section>
+
+      <section class="rapids-card">
+        <img class="card-img" src="images/hero.jpg" alt="Rafting boat in rapids">
         <img class="icon" src="images/oars.png" alt="oars icon">
         <h2>Rapids</h2>
-    </section>
-   
-    <!-- EMPTY DIV FOR BACKGROUND COLOR BAND -->
-    <div id="background"></div>
+      </section>
 
-    <img class="mountains" src="images/mt_reflection.jpg" alt="reflective mountains">
-    
-    <section class="msg">
-        <h2>Memories You Will Never Forget</h2>
-        <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than 
-           just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the 
-           great outdoors. </p>
-        <a class='join' href="rivers.html">Join Us</a>
-    </section>
-</main>
+      <!-- 11) Empty div for the message background band -->
+      <div id="background"></div>
 
-<footer>
-    <p>Big Drop Outfitters &copy; 2025 | Pat Blau</p>
-    <p><a href="site-plan-rafting.html">Site Plan</a></p>
-    <p><a href="contactus.html">Contact Us</a></p>
-    <div>
-        <a href="https://www.facebook.com/BigDropOutfitters" target="_blank">
-            <img class="social" src="images/facebook.png" alt="Facebook logo">
+      <!-- Large scenic image + message card -->
+      <img class="mountains" src="images/mt_reflection.jpg" alt="Reflective mountains over a lake">
+
+      <section class="msg">
+        <h2>More Than Just The Thrill</h2>
+        <p>
+          Enjoy the breathtaking scenery—from valleys, meadows, canyons, and high peaks; it’s way more
+          than just the rapids. It’s a great way to get away from it all and relax in the great outdoors.
+        </p>
+        <a class="join" href="rivers.html">Join Us</a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Big Drop Outfitters &copy; 2025 | Pat Blau</p>
+      <p><a href="site-plan-rafting.html">Site Plan</a></p>
+      <p><a href="contactus.html">Contact Us</a></p>
+
+      <!-- 3) External links open in a new tab (target="_blank") -->
+      <div class="socials">
+        <a href="https://www.facebook.com/BigDropOutfitters" target="_blank" rel="noopener">
+          <img class="social" src="images/facebook.png" alt="Facebook">
         </a>
-        <a href="https://www.instagram.com/bigdropoutfitters/" target="_blank">
-            <img class="social" src="images/instagram.png" alt="Instagram logo">
+        <a href="https://www.instagram.com/bigdropoutfitters/" target="_blank" rel="noopener">
+          <img class="social" src="images/instagram.png" alt="Instagram">
         </a>
-        <a href="https://twitter.com/BigDropOutfit1" target="_blank">
-            <img class="social" src="images/twitter.png" alt="Twitter logo">
+        <a href="https://twitter.com/BigDropOutfit1" target="_blank" rel="noopener">
+          <img class="social" src="images/twitter.png" alt="Twitter / X">
         </a>
-    </div>
-</footer>
+      </div>
+    </footer>
+
+  </div><!-- /#content -->
 </body>
 </html>
 <!--https://github.com/patblau/bd-outfitters.git-->

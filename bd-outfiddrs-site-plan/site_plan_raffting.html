@@ -88,7 +88,7 @@
   <h3>"Big Water. Big Mountains. Big Fun."</h3>
   <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in 
      a nice font :) -->
-    <img src="https://github.com/patblau/wwd130b/blob/main/wwr%20/images/logo.png" alt="Logo image" />
+    <img src="https://raw.githubusercontent.com/patblau/wwd130b/main/wwr%20/images/logo.png" alt="Logo image" />
     
     <p>
       Our branding focuses on the thrill of whitewater rafting combined with the beauty of 
@@ -96,7 +96,6 @@
       and excitement, while the color palette reflects the natural environment—blues and greens 
       representing water and forests, complemented by earthy tones that evoke the rugged terrain.
     </p>
-    />
 
     <hr />
    
@@ -156,7 +155,9 @@ descriptions below with the fonts you have chosen.  You should have at least one
 and one paragraph font but do not have to fill in all 4 if you do not need them. -->
 
 <!-- Headings: Altos Mono, Al Bayan, Consolas, color: #145169, 
- body: Cavolini, Menlo, Chalkboard, color: #050300 -->
+ body: Cavolini, Menlo, Chalkboard, color: #050300 
+ Big Caslon, -->
+
  
 <h4>Typography</h4>
 <div class="type-demo">
@@ -170,26 +171,26 @@ and one paragraph font but do not have to fill in all 4 if you do not need them.
 <style>
 :root {
   /* Basic CSS variables used below */
-  --heading-font: "Bookman Old Style", serif;
-  --class1: "Bookman Old Style", serif;
-  --wclass7: #ffffff;
-  --flame: #E3642A;
-  --white: #FFFFFF;
-  --secondary: #0F9ED5;
-  --brand: #396E94;
-  --ink: #145169;
+  --Font3: "Bookman Old Style", "Baskerville", serif; /* h1 */
+  --Font1: "Consolas", "Menlo", monospace; /* h3 */
+  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
+  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
+  --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
 }
 
 /* Heading and paragraph font setup example */
 
-/* Header with 0.8 transparency */
-/* color: #145169)*/
-/* Bradley Hand,Bookman Old Style, serif; */
-header h1{ 
-  font-family: var(--class1); /* heading font */
-  color: var(--wclass7); /* white */
+/* Name with 0.8 transparency - Name*/
+h1{ 
+  font-family: var(--class3); 
+  color: var(--accent5); 
   font-family: var(--heading-font);
-  font-size: 2.5em;
+}
+
+/* link and hover*/
+h2{ 
+  font-family: var(--class1); 
+  color: var(--wclass7); 
 }
 
 /* Navigation styles for .plan-nav (HTML moved out of the style block) */
@@ -221,7 +222,7 @@ main{
   line-height:1.6;
 }
 
-/* Paragraph: Altos Mono, Consolas, Al Bayan, regular, #145169,*/
+/* Paragraph: "Consolas", "Menlo", monospace, regular, #145169,*/
 p {
   font-family: "Baskerville", Arial, sans-serif;
   color: var(--ink);
@@ -234,10 +235,16 @@ p.colored{
 }
 
 /* Image styles */
-img{
-  max-width: 100%;
+/* Image styles */
+img.logo {
+  max-width: 200px;
+  height: auto;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
 hr{  
   border: none;
   border-top: 2px solid var(--brand);

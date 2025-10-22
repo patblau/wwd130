@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Big Drop Outfitters</title>
+  <!-- Clear, descriptive title per the lesson -->
+  <title>Whitewater Rafting Vacations | Big Drop Outfitters | Home</title>
 
-  <!-- 4) External stylesheet in the <head> -->
+  <!-- External stylesheet (ok to keep even if you haven’t styled yet) -->
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-  <!-- 6) Page container that we’ll center & max-width in CSS -->
+  <!-- Page container we’ll center & max-width in CSS -->
   <div id="content">
 
-    <!-- Header / Nav -->
+    <!-- HEADER -->
     <header>
+      <!-- Logo links to home -->
       <a href="index.html" id="logo_link" aria-label="Home">
         <img class="logo" src="images/logo.png" alt="Big Drop Outfitters logo">
       </a>
 
+      <!-- NAV: internal links -->
       <nav>
-        <!-- 1) Internal links in <nav> -->
         <a href="index.html">Home</a>
         <a href="rivers.html">Rivers</a>
         <a href="camping.html">Camping</a>
@@ -29,20 +30,25 @@
       </nav>
     </header>
 
-    <!-- Hero -->
-    <section id="hero">
-      <img id="hero-img" src="images/canoe.jpg" alt="Friends paddling a canoe on a mountain lake">
-      <div id="hero-msg">
+    <!-- HERO (unique to home page) -->
+    <div id="hero">
+      <div id="hero-box">
+        <!-- keep your canoe hero photo -->
+        <img id="hero-img" src="images/canoe.jpg" alt="Friends paddling a canoe on a mountain lake">
+      </div>
+
+      <section id="hero-msg">
         <h1 class="home-title">Having big adventures together.</h1>
         <h4>Every splash tells a story.</h4>
         <div class="button-box">
           <a class="book" href="contactus.html">Book Now</a>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <!-- Three feature cards -->
-    <main>
+    <!-- MAIN CONTENT -->
+    <main class="home-grid">
+      <!-- Three feature cards -->
       <section class="rivers-card">
         <img class="card-img" src="images/rivers2.jpg" alt="Forest river">
         <img class="icon" src="images/river_icon.png" alt="river icon">
@@ -61,10 +67,10 @@
         <h2>Rapids</h2>
       </section>
 
-      <!-- 11) Empty div for the message background band -->
+      <!-- Background band for message (empty on purpose for styling later) -->
       <div id="background"></div>
 
-      <!-- Large scenic image + message card -->
+      <!-- Scenic image + message card -->
       <img class="mountains" src="images/mt_reflection.jpg" alt="Reflective mountains over a lake">
 
       <section class="msg">
@@ -77,13 +83,13 @@
       </section>
     </main>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
       <p>Big Drop Outfitters &copy; 2025 | Pat Blau</p>
       <p><a href="site-plan-rafting.html">Site Plan</a></p>
       <p><a href="contactus.html">Contact Us</a></p>
 
-      <!-- 3) External links open in a new tab (target="_blank") -->
+      <!-- External links open in a new tab -->
       <div class="socials">
         <a href="https://www.facebook.com/BigDropOutfitters" target="_blank" rel="noopener">
           <img class="social" src="images/facebook.png" alt="Facebook">
@@ -100,4 +106,5 @@
   </div><!-- /#content -->
 </body>
 </html>
+
 <!-- https://github.com/patblau/BDO-W4.git->

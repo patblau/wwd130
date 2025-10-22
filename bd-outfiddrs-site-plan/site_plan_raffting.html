@@ -166,7 +166,7 @@ and one paragraph font but do not have to fill in all 4 if you do not need them.
         Paragraph Sample (Al Bayan). The best Whitewater Rafting Colorado has to offer.
       </p>
       <p class="para-colored">Colored Paragraph Example</p>
-    </div>
+</div>
 </div>
 <style>
 :root {
@@ -176,21 +176,28 @@ and one paragraph font but do not have to fill in all 4 if you do not need them.
   --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
   --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
   --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
+
+  /* Color variables */
+  --brand: #396E94;
+  --secondary: #0F9ED5;
+  --flame: #E3642A;
+  --white: #FFFFFF;
+  --ink: #050300;
+  --accent5: #FFFFFF;
 }
 
 /* Heading and paragraph font setup example */
 
 /* Name with 0.8 transparency - Name*/
-h1{ 
-  font-family: var(--class3); 
-  color: var(--accent5); 
-  font-family: var(--heading-font);
+h1{
+  font-family: var(--Font3);
+  color: var(--accent5);
 }
 
 /* link and hover*/
-h2{ 
-  font-family: var(--class1); 
-  color: var(--wclass7); 
+h2{
+  font-family: var(--Font2);
+  color: var(--brand);
 }
 
 /* Navigation styles for .plan-nav (HTML moved out of the style block) */
@@ -222,19 +229,18 @@ main{
   line-height:1.6;
 }
 
-/* Paragraph: "Consolas", "Menlo", monospace, regular, #145169,*/
+/* Paragraph: "Baskerville", Arial, sans-serif */
 p {
   font-family: "Baskerville", Arial, sans-serif;
   color: var(--ink);
   margin: .5em 0;
 }
 
-p.colored{ 
+p.colored{
   background-color: #0F9ED5;
-  font-family: "Cavolini, Menlo, Chaldkboard";		  
+  font-family: "Cavolini, Menlo, Chalkboard";
 }
 
-/* Image styles */
 /* Image styles */
 img.logo {
   max-width: 200px;
@@ -245,13 +251,36 @@ img{
   max-width: 100%;
   height: auto;
 }
-hr{  
+
+/* Image card styles placed in CSS; HTML moved out of the style block */
+.img-card {
+  text-align: center;
+  background-color: var(--white);
+  color: var(--brand);
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.img-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+/* Horizontal rule styles */
+hr{
   border: none;
   border-top: 2px solid var(--brand);
   margin: 2em 0;
-  
 }
 </style>
+
+<nav>
+  <div class="img-card">
+    <img src="images/rafting.jpg" alt="Rafting Adventure">
+    <p class="caption">Join the Adventure!</p>
+  </div>
+</nav>
 
 <h3>Navigation</h3>
 <nav class="plan-nav">

@@ -1,101 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Patrick+Hand&display=swap');
 
-/*Color Variables*/
-:root{
-  --primarty:#145169;     /* headline color on white */
-  --teal:#63A7A9;         /* headline color on color */
-  --ink:#050300;          /* paragraph text color-on-white */
-  --paper:#FFFFFF;        /* paragraph text color on color */
-  --secondary:#0F9ED5;    /* paragraph background color */
-  --paper:#FFFFFF;        /* nav link color*/  
-  --paper:#FFFFFF;        /* nav hover link color*/
-  --primarty:#145169;     /*nav background color*/
-  --secondary:#0F9ED5;    /*nav hover color */
-  --teal:#63A7A9;         /*nav background color */
-  --accent1:#A43312;      /* nav background color */
-  --accent3:#E3642A;      /*nav-background-color*/
-  --accent2:#3C7D22;       /*nav-background-color*/
-  --accent4:#49A443;      /*nav-background-color*/
-  --sand:#EFA765;         /*nav-background-color*/
-  }
+:root {
+  /* Basic CSS variables used below */
+  --Font3: "Bookman Old Style", "Baskerville", serif; /* h1 */
+  --Font1: "Consolas", "Menlo", monospace; /* h3 */
+  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
+  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
+  --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
 
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
+  /* Color palette */
+  --paper: #FFFBFE;
+  --ink: #050300;
+  --primary: #396E94;
+  --secondary: #0F9ED5;
+  --accent1: #63A7A9;
+  --accent2: #3C7D22;
+  --accent3: #49A443;
+  --accent4: #FBE8C5;
+  --accent5: #FFFFFF;
+  --accent6: #EFA765;
+  --accent7: #E3642A;
+  --accent8: #A43312;
+  --accent9: #050300;
+  --teal: #63A7A9;
+  --sand: #FBE8C5;
+}
 
-  /* Base styles */
-body{
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+/* Base styles */
+body {
   background-color: var(--paper);
   color: var(--ink);
   margin: 0;
   padding: 0;
-  font-family: "Al Bayan","Noto Sans",system-ui,"Segoe UI",Arial,sans-serif;
+  font-family: var(--Font5);
   line-height: 1.6;
-  }
+}
 
-#content{
+#content {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
 /* Header and Navigation */
-header{
-  background-color: rgba(57,110,148,.85); /* var(--primary) w/ transparency */
-  color: var(--paper);
-  padding: 1rem;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
 
-nav a{
+nav a {
   text-align: center;
   color: var(--paper);         /* foreground */
-  text-decoration: none;      
+  text-decoration: none;
   padding: 35px;
   border-radius: .5rem;
   display: inline-block;
 }
-nav a:hover{
-  background-color: var(--secondary); 
-  color: var(--paper);                
-  text-decoration: none;              
+nav a:hover {
+  background-color: var(--secondary);
+  color: var(--paper);
+  text-decoration: none;
 }
 
 /* Hero & headings */
 #hero-msg h1,
-#hero-msg h4{
-  text-align: center;                 
-  color: var(--paper);                
+#hero-msg h4 {
+  text-align: center;
+  color: var(--paper);
 }
 
-.home-title{ color: var(--primary); }
-h4{ color: var(--accent2); }
+.home-title { color: var(--primary); }
+h4 { color: var(--accent2); }
 
-#hero-img{
+#hero-img {
   width: 100%;
   height: auto;
   display: block;
 }
 
 /* Main sections */
-main section{
-  text-align: center;                 
+main section {
+  text-align: center;
   background-color: var(--paper);
   color: var(--ink);
   padding: 1.25rem 0;
-  margin: 0 auto;                     
+  margin: 0 auto;
 }
 
-.button-box{
-  text-align: center;                 
+.button-box {
+  text-align: center;
 }
 
 /* Background band (empty div) */
-#background{
+#background {
   height: 725px;                      /* per spec */
   background-color: var(--teal);
 }
 
 /* Message card */
-.msg{
+.msg {
   background-color: var(--sand);
   color: var(--ink);
   padding: 1rem 1.25rem;
@@ -104,31 +112,30 @@ main section{
   max-width: 900px;
 }
 
-.msg h2{ color: var(--accent1); }
-.msg p { color: var(--ink); }
+.msg h2 { color: var(--accent1); }
+.msg p  { color: var(--ink); }
 
 /* Buttons */
 .book,
-.join{
+.join {
   background-color: var(--accent3);
   color: var(--paper);
-  text-decoration: none;              
+  text-decoration: none;
   padding: .6rem .9rem;
   border-radius: .6rem;
   display: inline-block;
   font-weight: 700;
-  margin-top: 50px; 
- 	display: inline-block
+  margin-top: 50px;
 }
 
 .book:hover,
-.join:hover{
+.join:hover {
   background-color: var(--accent1);
   color: var(--paper);
 }
 
 /* Footer */
-footer{
+footer {
   background-color: var(--primary);
   color: var(--paper);
   padding: 1.5rem 1rem;
@@ -137,31 +144,31 @@ footer{
   margin-top: 200px;
 }
 
-footer p{
+footer p {
   font-size: 1.2em;
   margin: .5rem 0 0;
 }
 
-footer a{
+footer a {
   color: var(--sand);
-  text-decoration: none;            
+  text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
   color: var(--paper);
   background-color: transparent;
 }
 
-footer p a:hover{
-  text-decoration: underline;         
+footer p a:hover {
+  text-decoration: underline;
 }
 
 /* Image sizes (logos & icons) */
-.logo{ width: 80px; height: auto; }   
-.icon{ width: 80px; height: auto; }   
+.logo { width: 80px; height: auto; }
+.icon { width: 80px; height: auto; }
 
 /* Type scale tweaks */
-@media (min-width: 768px){
-  #hero-msg h1{ font-size: 3em; }
-  #hero-msg h4{ font-size: 1.5em; }
+@media (min-width: 768px) {
+  #hero-msg h1 { font-size: 3em; }
+  #hero-msg h4 { font-size: 1.5em; }
 }

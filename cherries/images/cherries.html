@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tart & Sweet Cherries</title>
+    <style>
+        /* Grid Container */
+        .home-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            grid-template-rows: 100px; /* Main row + bottom row */
+            height: 100vh; /* Full height of the viewport */
+        }
+
+        /* Left Column (Content) */
+        .left-column {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            align-items: center;
+        }
+
+        /* Right Column (Solid Background) */
+        .right-column {
+            background-color: #CACBC9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Centered Text Across Both Columns */
+        .center-text {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 30%;
+            font-family: 'Times New Roman', Tahoma, sans-serif;
+            font-size: 64px;
+            font-weight: bold;
+            z-index: 10; /* Ensures text stays on top */
+        }
+
+        /* Cherries text positioned at the bottom */
+        .bottom-text {
+            grid-column: span 2; /* Spans across both columns */
+            display: flex;
+            justify-content: bottom;
+            align-items: center;
+            background-color: #CACBC9;
+            font-family: 'Times New Roman', Times, Tahoma, sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: darkred;
+            margin-top: 20px; /* Adds spacing below "Tart & Sweet" */
+        }
+
+        /* Center Content */
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Arial, sans-serif;
+        }
+
+        .text h1 {
+            font-size: 64px;
+            font-weight: bold;
+        }
+
+        .tart {
+            color: black;
+        }
+
+        .sweet {
+            color: black;
+        }
+
+        .cherry-img {
+            width: 300px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .box {
+            background-color: #b0b0b0;
+            padding: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .cherries {
+            color: darkred;
+            font-size: 40px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="home-grid">	
+    <!-- Centered "Tart & Sweet" Text Across Both Columns -->
+    <div class="center-text">
+        <h1> Tart & Sweet
+        </h1>
+    </div>
+
+    <!-- Two Column Grid Layout -->
+    <div class="home-grid">				
+        <!-- Left Column (Cherries Image) -->
+        <div class="left-column">
+            <img src="images/cherries.png" alt="Cherries" class="cherry-img">
+        </div>
+
+        <!-- Right Column (Background & "Cherries" Text) -->
+        <div class="right-column">
+            <p class="cherries">Cherries</p>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -20,7 +20,6 @@ body {
     width: 80%;
     max-width: 900px;
     position: relative;
-    Box-shadow: 0 0 10 rgba(0,0,0,0.1);
 }
 
 /* Left Side - Cherries Image */
@@ -52,23 +51,22 @@ body {
 .cherry-img {
     width: 250px;
     height: auto;
-    position: left;
     display: block;
 }
 
 /* "Tart" & "Sweet" Styling */
 .title {
     color: black;
-    position: top, absolute;
+    position: absolute;
     text-align:center;
-    top: 10%;
+    top: 5%;
     left: 50%;
+    width: 100;
     font-size: 64px;
-    font-weight: bold, 700;
-    max-width: 900px;
-    letter-spacing: 0.05em;
+    font-weight: 700;
     line-height:1;
-    z-index: 3;
+    transform: translateX(-50%);
+    z-index: 5;
 }
 
 

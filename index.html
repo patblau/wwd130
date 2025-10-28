@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WWD130 – Projects</title>
+  <style>
+    :root{
+      --primary:#396E94; --secondary:#0F9ED5; --accent1:#A43312;
+      --accent2:#3C7D22; --accent3:#E3642A; --paper:#FFFFFF; --ink:#050300;
+      --sand:#EFA765; --teal:#63A7A9;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:var(--paper); color:var(--ink);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height:1.6;
+    }
+    header{
+      padding:2rem 1rem; text-align:center;
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff;
+    }
+    header h1{margin:0 0 .25rem 0; font-size:clamp(1.5rem,3vw,2.25rem)}
+    header p{margin:.25rem 0 0 0; opacity:.95}
+    main{max-width:1100px; margin:1.5rem auto; padding:0 1rem 3rem}
+    .grid{
+      display:grid; gap:1rem;
+      grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    }
+    .card{
+      background:#fff; border-radius:1rem; padding:1rem;
+      box-shadow:0 8px 22px rgba(0,0,0,.08);
+      border:1px solid rgba(0,0,0,.04);
+      transition: transform .12s ease, box-shadow .12s ease;
+    }
+    .card:hover{ transform: translateY(-3px); box-shadow:0 10px 26px rgba(0,0,0,.12); }
+    .tag{display:inline-block; font-size:.8rem; padding:.15rem .5rem; border-radius:.5rem; background:rgba(57,110,148,.1); color:var(--primary)}
+    .card h3{margin:.5rem 0 .25rem 0; font-size:1.1rem}
+    .card p{margin:.25rem 0 .5rem 0; font-size:.95rem; color:#333}
+    .card a{
+      display:inline-block; margin-top:.5rem; text-decoration:none; font-weight:600;
+      color:#fff; background:var(--primary); padding:.5rem .75rem; border-radius:.5rem;
+    }
+    footer{max-width:1100px;margin:0 auto;padding:1rem;color:#555;font-size:.9rem}
+    .help{margin-top:1.5rem; background:#f8fafc; border:1px solid #e5e7eb; padding:1rem; border-radius:.75rem}
+    code{background:#f1f5f9; padding:.1rem .35rem; border-radius:.35rem}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WWD130 – Project Index</h1>
+    <p>All assignments in one place. Click a card to open that project.</p>
+  </header>
+
+  <main>
+    <section class="grid" id="projects"></section>
+
+    <div class="help">
+      <strong>How to add a new assignment:</strong>
+      <ol>
+        <li>Create a new folder at the repo root (e.g., <code>week05_typography/</code>).</li>
+        <li>Put that project’s <code>index.html</code> inside the folder.</li>
+        <li>Edit <code>projects.json</code> and add a new entry pointing to your folder (see below).</li>
+        <li>Commit &amp; push. The card will appear automatically.</li>
+      </ol>
+    </div>
+  </main>
+
+  <footer>
+    Site published with GitHub Pages. Root: <code>https://patblau.github.io/wwd130/</code>
+  </footer>
+
+  <script>
+    // Load projects.json and render cards
+    fetch('projects.json', {cache: 'no-store'})
+      .then(r => r.json())
+      .then(list => {
+        const root = document.getElementById('projects');
+        if (!Array.isArray(list)) throw new Error('projects.json must be an array');
+
+        list.forEach(p => {
+          // Expect: { title, folder, blurb?, tag? }
+          const url = `${p.folder.replace(/\/?$/,'/')}`; // ensure trailing slash
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            ${p.tag ? `<span class="tag">${p.tag}</span>` : ``}
+            <h3>${p.title ?? p.folder}</h3>
+            ${p.blurb ? `<p>${p.blurb}</p>` : ``}
+            <a href="${url}" aria-label="Open ${p.title ?? p.folder}">Open project</a>
+          `;
+          root.appendChild(card);
+        });
+      })
+      .catch(err => {
+        const root = document.getElementById('projects');
+        root.innerHTML = `<p style="color:#A43312"><strong>Error:</strong> Could not load <code>projects.json</code>. ${err.message}</p>`;
+      });
+  </script>
+</body>
+</html>

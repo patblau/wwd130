@@ -25,6 +25,7 @@ body {
 /* Left Side - Cherries Image */
 .left {
     display: flex;
+    img: cherries
     justify-content: center;
     text-align: center;
     position: relative;

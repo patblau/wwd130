@@ -1,0 +1,15 @@
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/bin/Debug/net9.0/App
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/bin/Debug/net9.0/App.deps.json
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/bin/Debug/net9.0/App.runtimeconfig.json
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/bin/Debug/net9.0/App.dll
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/bin/Debug/net9.0/App.pdb
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.AssemblyInfoInputs.cache
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.AssemblyInfo.cs
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.csproj.CoreCompileInputs.cache
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.sourcelink.json
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.dll
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/refint/App.dll
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.pdb
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/App.genruntimeconfig.cache
+/Users/patblau/Desktop/Classes/20253_webfund/wwd130/MyApp/obj/Debug/net9.0/ref/App.dll

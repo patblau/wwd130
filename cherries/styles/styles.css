@@ -73,6 +73,7 @@ body {
     left: 50%;
     font-size: 64px;
     font-weight: bold;
+    letter-spacing: 0.05em;
     z-index: 3;
 }
 

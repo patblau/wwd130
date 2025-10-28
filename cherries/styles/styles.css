@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: "Bookman Old Style", "Baskerville", "Times New Roman";
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: white;
@@ -16,10 +16,11 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
-    align-items: center;
+    align-items: stretch;
     width: 80%;
     max-width: 900px;
     position: relative;
+    Box-shadow: 0 0 10 rgba(0,0,0,0.1);
 }
 
 /* Left Side - Cherries Image */

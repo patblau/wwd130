@@ -5,8 +5,8 @@ body {
     margin: 0;
     font-family: "Bookman Old Style", "Baskerville", "Times New Roman";
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 100vh;
     background-color: white;
     }

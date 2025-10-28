@@ -51,12 +51,12 @@ body {
 
 .cherry-img {
     width: 250px;
-    position: left;
+    position: right;
 }
    
 
 /* Centered "Tart & Sweet" */
-.cherries {. 
+.cherries { 
     position: center;
     font-size: 40px;
     font-weight: bold;

@@ -18,8 +18,7 @@ body {
     grid-template-columns: 1fr 1fr; /* Two columns */
     align-items: stretch;
     width: 50%;
-    max-width: 900px;
-    position: relative;
+    position: 100%;
 }
 
 /* Left Side - Cherries Image */

@@ -43,8 +43,8 @@ body {
     color: darkred;
     font-size: 40px;
     font-weight: bold;
-    letter-spacing: 0.15;
-    margin: 0;
+    letter-spacing: 0.25;
+    margin-bottom: 15px;
 }
 
 .cherry-img {

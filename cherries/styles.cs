@@ -1,7 +1,6 @@
 
 
-
-using System.Linq.Expressions;
+using System; 
 
 body {
     margin: 0;
@@ -46,7 +45,7 @@ body {
     color: darkred;
     font-size: 40px;
     font-weight: bold;
-    letter-spacing: 0.15
+    letter-spacing: 0.15;
 }
 
 .cherry-img {
@@ -55,23 +54,27 @@ body {
     z-index: 2; /* Ensures image is above background */
 }
 
-/* Centered "Tart & Sweet" Text Overlapping Cherries */
-.title {
-    position: absolute;
-    font-size: 64px;
+/* Centered "Tart & Sweet" */
+.cherries {
+    font-size: 40px;
     font-weight: bold;
-    top: 15%;
-    left: 20%;
-    z-index: 3; /* Ensures text is on top */
+    color: darkred;
+    letter-spacing: 0.15em;
 }
 
 /* "Tart" & "Sweet" Styling */
-.tart {
+.title {
     color: black;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 64px;
+    font-weight: bold;
+    color: black;
+    z-index: 2;
 }
 
-.sweet {
-    color: black;
-}
+
+
 
 </style>      

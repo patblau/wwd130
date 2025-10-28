@@ -17,7 +17,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
     align-items: stretch;
-    width: 60%;
+    width: 50%;
     max-width: 900px;
     position: relative;
 }

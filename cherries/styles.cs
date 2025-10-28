@@ -1,13 +1,15 @@
 
 
 
+using System.Linq.Expressions;
+
 body {
     margin: 0;
     font-family: "Bookman Old Style", "Baskerville", "Times New Roman";
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    height: 100vh;
+    align-items: center;
+    mini-height: 100vh;
     background-color: white;
     }
 
@@ -24,8 +26,8 @@ body {
 /* Left Side - Cherries Image */
 .left {
     display: flex;
-    justify-content: center;
-    align-items: right;
+    justify-content: flex-start;
+    text-align: right;
     position: relative;
 }
 

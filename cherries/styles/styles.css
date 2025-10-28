@@ -59,7 +59,7 @@ body {
 /* "Tart" & "Sweet" Styling */
 .title {
     color: black;
-    position: center;
+    position: top, absolute;
     text-align:center;
     top: 10%;
     left: 50%;

@@ -36,8 +36,8 @@ body {
     background-color: #CACBC9;
     display: flex;
     justify-content: center;
-    align-items: flex-end
-    padding-bottom: 20px;
+    align-items: flex-end;
+    padding-bottom: 20 px;
 }
 
 /* "Cherries" Text */
@@ -51,16 +51,18 @@ body {
 
 .cherry-img {
     width: 250px;
-    position: relative;
-    z-index: 2; /* Ensures image is above background */
+    position: left;
 }
+   
 
 /* Centered "Tart & Sweet" */
-.cherries {
+.cherries {. 
+    position: center;
     font-size: 40px;
     font-weight: bold;
     color: darkred;
     letter-spacing: 0.15em;
+    z-index: 1; /* Ensures image is above background */
 }
 
 /* "Tart" & "Sweet" Styling */
@@ -73,6 +75,7 @@ body {
     font-weight: bold;
     z-index: 3;
 }
+
 
 
 

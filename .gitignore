@@ -6,3 +6,4 @@
 
 # Ignore build files or node modules (if any)
 node_modules/.DS_Store
+.DS_Store

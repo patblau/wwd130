@@ -9,14 +9,14 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    mini-height: 100vh;
+    height: 100vh;
     background-color: white;
     }
 
 /* Grid Container */
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-columns: 1fr 1fr; /* Two columns */
     align-items: center;
     width: 80%;
     max-width: 900px;
@@ -26,8 +26,8 @@ body {
 /* Left Side - Cherries Image */
 .left {
     display: flex;
-    justify-content: flex-start;
-    text-align: right;
+    justify-content: center;
+    text-align: center;
     position: relative;
 }
 
@@ -37,17 +37,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 300%;
     padding: 5px;
 }
 
 /* "Cherries" Text */
 .cherries {
     color: darkred;
-    justify-content: last baseline;
-    align-items: last baseline;
     font-size: 40px;
     font-weight: bold;
+    letter-spacing: 0.15
 }
 
 .cherry-img {

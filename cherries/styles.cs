@@ -1,8 +1,8 @@
-<style>
-        /* General Reset */
+  *{box-sizing:border-box)
+
         body {
             margin: 0;
-            font-family: 'Times New Roman', serif;
+            font-family: "Bookman Old Style", "Baskerville", Georgia, "Times New Roman", serif;;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -24,7 +24,7 @@
         .left {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: right;
             position: relative;
         }
 
@@ -71,7 +71,5 @@
         .sweet {
             color: black;
         }
-
-
-    </ style >
-    
+        
+    </style>

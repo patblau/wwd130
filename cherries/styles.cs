@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tart & Sweet Cherries</title>
-    <style>
+<style>
         /* General Reset */
         body {
             margin: 0;
@@ -30,7 +24,7 @@
         .left {
             display: flex;
             justify-content: center;
-            align-items: right;
+            align-items: center;
             position: relative;
         }
 
@@ -77,27 +71,7 @@
         .sweet {
             color: black;
         }
-        
-    </style>
-</head>
-<body>
-    <div class="container">
-         <!-- Left Side (Cherries & Text) -->
-         <div class="left">
-            <img src="images/cherries.png" alt="Cherries" class="cherry-img">
-        </div>
-       
-        <!-- Right Side (Gray Background + Cherries Text) -->
-        <div class="right">
-            <p class="cherries">Cherries</p>
-        </div>
 
-        <!-- Centered "Tart & Sweet" Text Across Both Columns -->
-        <div class="center-text">
-            <h1 class="title" >Tart & Sweet
-            </h1>
-        </div>
-    </div>
 
-</body>
-</html>
+    </ style >
+    

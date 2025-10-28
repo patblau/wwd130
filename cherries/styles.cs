@@ -1,75 +1,76 @@
-  *{box-sizing:border-box)
 
-        body {
-            margin: 0;
-            font-family: "Bookman Old Style", "Baskerville", Georgia, "Times New Roman", serif;;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: white;
-        }
 
-        /* Grid Container */
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr; /* Two equal columns */
-            align-items: center;
-            width: 80%;
-            max-width: 900px;
-            position: relative;
-        }
 
-        /* Left Side - Cherries Image */
-        .left {
-            display: flex;
-            justify-content: center;
-            align-items: right;
-            position: relative;
-        }
+body {
+    margin: 0;
+    font-family: "Bookman Old Style", "Baskerville", "Times New Roman";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    }
 
-        /* Right Side - Gray Background */
-        .right {
-            background-color: #CACBC9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            padding: 5px;
-        }
+/* Grid Container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    position: relative;
+}
 
-        /* "Cherries" Text */
-        .cherries {
-            color: darkred;
-            justify-content: last baseline;
-            align-items: last baseline;
-            font-size: 40px;
-            font-weight: bold;
-        }
+/* Left Side - Cherries Image */
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    position: relative;
+}
 
-        .cherry-img {
-            width: 250px;
-            position: relative;
-            z-index: 2; /* Ensures image is above background */
-        }
+/* Right Side - Gray Background */
+.right {
+    background-color: #CACBC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+}
 
-        /* Centered "Tart & Sweet" Text Overlapping Cherries */
-        .title {
-            position: absolute;
-            font-size: 64px;
-            font-weight: bold;
-            top: 15%;
-            left: 20%;
-            z-index: 3; /* Ensures text is on top */
-        }
+/* "Cherries" Text */
+.cherries {
+    color: darkred;
+    justify-content: last baseline;
+    align-items: last baseline;
+    font-size: 40px;
+    font-weight: bold;
+}
 
-        /* "Tart" & "Sweet" Styling */
-        .tart {
-            color: black;
-        }
+.cherry-img {
+    width: 250px;
+    position: relative;
+    z-index: 2; /* Ensures image is above background */
+}
 
-        .sweet {
-            color: black;
-        }
-        
-    </style>
+/* Centered "Tart & Sweet" Text Overlapping Cherries */
+.title {
+    position: absolute;
+    font-size: 64px;
+    font-weight: bold;
+    top: 15%;
+    left: 20%;
+    z-index: 3; /* Ensures text is on top */
+}
+
+/* "Tart" & "Sweet" Styling */
+.tart {
+    color: black;
+}
+
+.sweet {
+    color: black;
+}
+
+</style>      

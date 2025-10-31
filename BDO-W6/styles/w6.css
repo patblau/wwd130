@@ -1,0 +1,62 @@
+
+<body>
+  <div id="content">
+    <header>
+      <img class="logo" src="images/logo.png" alt="Logo">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Page 2</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </header>
+
+    <img id="hero-img" src="images/hero.jpg" alt="Rafting hero">
+
+    <section id="hero-msg">
+      <h1>Have An Adventure</h1>
+      <h4>Make Memories with Dry Oar</h4>
+      <div class="button-box">
+        <a href="rivers.html">Book Now</a>
+      </div>
+    </section>
+
+    <section class="rivers-card">
+      <img class="card-img" src="images/rivers.jpg" alt="River">
+      <img class="icon" src="images/oars.png" alt="oars icon">
+      <h2>Rivers</h2>
+    </section>
+
+    <section class="camping-card">
+      <img class="card-img" src="images/camping.jpg" alt="Camping">
+      <img class="icon" src="images/fire.png" alt="fire icon">
+      <h2>Camping</h2>
+    </section>
+
+    <section class="rapids-card">
+      <img class="card-img" src="images/rapids.jpg" alt="Rapids">
+      <img class="icon" src="images/paddles.png" alt="paddles icon">
+      <h2>Rapids</h2>
+    </section>
+
+    <div id="background"></div>
+
+    <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+
+    <section class="msg">
+      <h2>More Than Just The Thrill</h2>
+      <p>Enjoy the breathtaking scenery...</p>
+      <a class="join" href="rivers.html">Join Us</a>
+    </section>
+
+    <footer>
+      <p>Big Dop Outfiters © 2025 – Pat Blau</p>
+      <a href="site-plan.html">Site Plan</a> • <a href="contact.html">Contact Us</a>
+      <div class="social">
+        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+      </div>
+    </footer>
+  </div>
+</body>
+Drop-in “fix pack” 

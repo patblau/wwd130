@@ -11,4 +11,11 @@
     "blurb": "Branding & homepage structure.",
     "tag": "Branding"
   }
+
+{   <PropertyGroup>
+    `<LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+
+  
 ]

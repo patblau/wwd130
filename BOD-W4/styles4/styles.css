@@ -1,6 +1,9 @@
 /*copied over w3 css codes*/
 /* from copied extra file, added w4 codes*/
 
+/* TEMP TEST */
+body { outline: 6px solid hotpink !important; }
+
 /* --- GENERAL PAGE SETTINGS --- */
 body {
   background-color: #fcfbfb; /* soft white background */

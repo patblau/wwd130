@@ -1,0 +1,179 @@
+/* Define custom color palette */
+:root {
+    --body-background-color: #ffffff; /* white */
+    --header-color: #4B3832; /* dark brown for headlines on a colored background */
+    --nav-background-color: #6E6658; /* muted brown */
+    --nav-a-hover-color: #A68A64; /* hover color for nav links */
+    --text-on-white: #333333; /* dark gray for text on white */
+    --text-on-color: #F5E6CC; /* beige for text on colored backgrounds */
+    --background-color: #D1B38A; /* background section color */
+    --msg-color: #F5E6CC; /* light cream for message box */
+    --footer-background-color: #4B3832; /* dark brown for footer */
+    --footer-color: #FAF3E0; /* light text for footer */
+}
+
+/* Base styles */
+body {
+    background-color: var(#fcfbfb);
+    font-family: Segoe Print, Aptos (Body), sans-serif;
+    color: var(--text-on-white);
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: var(--header-color);
+    color: var(--text-on-color);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Font Family for Specific Elements */
+.home-title, 
+.msg h2 {
+    font-family: Segoe Print, Aptos (Body), sans-serif;
+}
+
+/* Navigation */
+nav {
+    background-color: var(--nav-background-color);
+    padding: 10px;
+}
+
+nav a {
+    color: var(--text-on-color);
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: var(--nav-a-hover-color);
+    color: var(--body-background-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Headings */
+.home-title, h4 {
+    color: var(--header-color);
+}
+
+/* Buttons */
+.book, .join {
+    background-color: var(--nav-background-color);
+    color: var(--text-on-color);
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;  /* Added Border Radius */
+    display: inline-block;
+}
+
+.book:hover, .join:hover {
+    background-color: var(--nav-a-hover-color);
+    color: var(--body-background-color);
+}
+
+/* Background section */
+#background {
+    background-color: var(--background-color);
+    color: var(--text-on-color);
+    height: 725px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Message box */
+.msg {
+    background-color: var(--msg-color);
+    line-height: 1.5em;
+    color: var(--text-on-white);
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.msg h2 {
+    color: var(--header-color);
+}
+
+.msg p {
+    color: var(--text-on-white);
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+/* Padding Adjustments */
+#logo_link {
+    padding-top: 5px;
+}
+
+/* Images */
+.logo, .icon {
+    max-width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.card-img, .mountains {
+    width: 500px;
+    height: 350px;
+}
+
+#hero-img {
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-color);
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--footer-color);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: var(--nav-a-hover-color);
+}
+
+footer p {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+/* Margin Adjustments */
+.rivers-card, 
+.camping-card, 
+.rapids-card {
+    margin: 200px 0;
+}
+
+/* Border and Box-Sizing Enhancements */
+.card-img {
+    border: 10px solid #0C1D32; /* Updated Border */
+}
+
+main section img {
+    box-sizing: border-box; /* Ensures Borders Don't Affect Image Size */
+}
+
+</style>

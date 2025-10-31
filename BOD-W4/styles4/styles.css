@@ -79,7 +79,7 @@ main section {
 }
 
 * {
-    border: 2px solid blue;
+    border: 2px solid #e3642a;
 }
 
 .logo {
@@ -94,7 +94,7 @@ main section {
 /* --- BACKGROUND DIV --- */
 #background {
   height: 725px;
-  background-color: #e3642a; /* warm orange (example accent) */
+  background-color: blue; /* warm orange (example accent) */
 }
 
 /* --- MESSAGE SECTION --- */

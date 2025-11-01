@@ -1,28 +1,21 @@
-body {
-  text-align: center;
-}
+/* Center everything to match Week 2 objectives */
+body { text-align: center; }
 
-nav {
-  background-color: steelblue;
-  padding: 10px;
-}
+/* Nav bar */
+nav { background-color: steelblue; padding: 10px; }
+nav a { color: white; margin: 40px; text-decoration: none; font-weight: 600; }
 
-a {
-  color: white;
-  margin: 40px;
-}
+/* Active page indicator (ID is unique) */
+#active { background: white; color: steelblue; padding: 0.25em 0.5em; border-radius: 4px; }
 
-h1 {
-  color: steelblue;
-}
-img {
-  width: 800px;
-  border: 4px solid steelblue;
-}
-p {
-  padding: 10px;
-}
-footer {
-  background-color: steelblue;
-  color: white;
-}
+/* Headline */
+h1 { color: steelblue; }
+
+/* Image */
+img { width: 800px; max-width: 95vw; border: 4px solid steelblue; }
+
+/* Paragraph in main only (class selector) */
+.main-para { font-size: 1.5em; line-height: 1.5em; }
+
+/* Footer */
+footer { background: steelblue; color: white; padding: 10px; margin-top: 20px; }

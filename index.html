@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WWD130 – Projects</title></head><body>
+<h1>WWD130 – Projects</h1><div id="projects">Loading…</div>
+<script>
+fetch('./projects.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(list=>{
+  const root=document.getElementById('projects'); root.innerHTML='';
+  list.forEach(p=>{const a=document.createElement('a');a.href=(p.folder||'').replace(/\/?$/,'/');a.textContent=p.title||p.folder; const div=document.createElement('div');div.appendChild(a);root.appendChild(div);});
+}).catch(e=>{document.getElementById('projects').textContent='Error: Could not load projects.json — '+e.message;});
+</script>
+</body></html>

@@ -10,5 +10,41 @@
     "folder": "bdo_file",
     "blurb": "Branding & homepage structure.",
     "tag": "Branding"
+  },
+  {
+    "title": "BYUI – Week 1",
+    "folder": "byui-1",
+    "tag": "BYUI",
+    "blurb": "Week 2 lesson: link CSS & basic styling."
+  },
+  {
+    "title": "BDO – Week 3",
+    "folder": "BDO-W3",
+    "tag": "BDO",
+    "blurb": "Styling classes & IDs practice."
+  },
+  {
+    "title": "Positioning Practice",
+    "folder": "position",
+    "tag": "Layout",
+    "blurb": "Position/flow/stack demos."
+  },
+  {
+    "title": "BDO – Site Plan",
+    "folder": "bdo-site-plan",
+    "tag": "Planning",
+    "blurb": "Content, audience, colors."
+  },
+  {
+    "title": "Final – BFA",
+    "folder": "final-bfa",
+    "tag": "Final",
+    "blurb": "Capstone deliverables."
+  },
+  {
+    "title": "Home Page Draft",
+    "folder": "final-hmpg",
+    "tag": "BDO",
+    "blurb": "Home layout prototype."
   }
 ]

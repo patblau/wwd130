@@ -1,21 +1,37 @@
-/* Center everything to match Week 2 objectives */
-body { text-align: center; }
+/* Center everything */
+body { 
+    text-align: center; }
 
 /* Nav bar */
-nav { background-color: steelblue; padding: 10px; }
-nav a { color: white; margin: 40px; text-decoration: none; font-weight: 600; }
+nav { 
+    background-color: steelblue;
+    padding: 10px;
+}
 
-/* Active page indicator (ID is unique) */
-#active { background: white; color: steelblue; padding: 0.25em 0.5em; border-radius: 4px; }
+/* Links */
+a {
+  color: white;
+  margin: 40px;
+ }
 
 /* Headline */
-h1 { color: steelblue; }
+h1 { 
+    color: steelblue; 
+}
 
 /* Image */
-img { width: 800px; max-width: 95vw; border: 4px solid steelblue; }
+img { 
+    width: 800px; 
+    max-width: 95vw; 
+    border: 4px solid steelblue; }
 
-/* Paragraph in main only (class selector) */
-.main-para { font-size: 1.5em; line-height: 1.5em; }
+/* Paragraphs */
+p { 
+    padding: 10px;
+}
 
 /* Footer */
-footer { background: steelblue; color: white; padding: 10px; margin-top: 20px; }
+footer { 
+    background: steelblue; 
+    color: white;  
+}

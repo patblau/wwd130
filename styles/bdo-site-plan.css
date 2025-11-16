@@ -6,7 +6,7 @@
   --primary-color:  #1669C2;
   --secondary-color:#B77B13;
   --accent1-color:  #3B5570;
-  --accent2-color:  #F2F2F2;
+  --accent2-color:  #1669C2
   --accent3-color:  #F2D6A2;
   --accent4-color:  #122640;
   --accent5-color:  #068BBF;
@@ -16,12 +16,12 @@
   --paragraph-font: "Andika", system-ui, sans-serif;
 
   --headline-color-on-white: #1669C2;
-  --headline-color-on-color: #F2F2F2;
+  --headline-color-on-color: #B77B13;
   --paragraph-color-on-white: #3B5570;
-  --paragraph-color-on-color: #F2F2F2;
+  --paragraph-color-on-color: #1669C2;
   --paragraph-background-color: #396E94;
   --nav-link-color: #122640;
-  --nav-background-color:#068BBF;
+  --nav-background-color:#1669C2;
   --nav-hover-link-color: #B77B13;
   --nav-hover-background-color: #396E94;
 }

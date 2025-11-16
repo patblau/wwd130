@@ -125,20 +125,14 @@ nav a:hover {
   display: block;
 }
 
-/* hero text overlay - w3 */
+/* hero text container - w3 */
 #hero-msg {
   position: absolute;
-  top: 50%;           /* w4 */
+  top: 75%;           /* w4, w5 update */
   left: 50%;          /* w4 */
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: center;  /* w4 */
   padding: 1rem 2rem;
-}
-
-/* center hero text - w4 */
-#hero-msg h1,
-#hero-msg h4 {
-  text-align: bottom;
 }
 
 /* main hero title - w3 */
@@ -146,18 +140,12 @@ nav a:hover {
   font-family: var(--heading-font);
   color: black; /* accent2 */
   font-size: clamp(2.2rem, 4vw, 3.2rem);
-  margin: 0 0 0.5rem;
   text-decoration: none;
 }
 
-/* hero subtitle - w3 */
-#hero-msg h4 {
-  color: black; /* accent2*/
-  margin: 0;
-}
 
-/*
-book now container - w3 */
+
+/*book now container - w3 */
 .button-box {
   margin-top: 1rem;
   text-align: center; /* w4 */

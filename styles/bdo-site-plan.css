@@ -138,7 +138,7 @@ nav a:hover {
 /* center hero text - w4 */
 #hero-msg h1,
 #hero-msg h4 {
-  text-align: center;
+  text-align: bottom;
 }
 
 /* main hero title - w3 */

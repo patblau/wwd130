@@ -6,25 +6,22 @@
   --primary-color:  #1669C2;
   --secondary-color:#B77B13;
   --accent1-color:  #3B5570;
-  --accent2-color:  #1669C2;
+  --accent2-color:  black;
   --accent3-color:  #FFF8E7;
-  --accent4-color:  #122640;
+  --accent4-color:  #396E94;
   --accent5-color:  #068BBF;
   --accent6-color:  #F2D6A2;
-
-  --heading-font: "Segoe Print", "Give You Glory", cursive;
-  --paragraph-font: "Andika", system-ui, sans-serif;
-
-  --headline-color-on-white: #1669C2;
-  --headline-color-on-color: #B77B13;
-  --paragraph-color-on-white: #3B5570;
-  --paragraph-color-on-color: #1669C2;
-  --paragraph-background-color: #396E94;
-  --nav-link-color: #122640;
-  --nav-background-color:#1669C2;
-  --nav-hover-link-color: #B77B13;
-  --nav-hover-background-color: #396E94;
 }
+
+/* Color palette squares */
+.primary   { background-color: var(--primary-color); }
+.secondary { background-color: var(--secondary-color); }
+.accent1   { background-color: var(--accent1-color); }
+.accent2   { background-color: var(--accent2-color); }
+.accent3   { background-color: var(--accent3-color); }
+.accent4   { background-color: var(--accent4-color); }
+.accent5   { background-color: var(--accent5-color); }
+.accent6   { background-color: var(--accent6-color); }
 
 /* Global Reset base */
 *,
@@ -37,8 +34,8 @@
 body {
   margin: 0; /* w5 */
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
-  background-color: var(--accent2-color);
+  color: black;
+  background-color: var(--accent3-color);
   text-align: center;
 }
 
@@ -52,7 +49,7 @@ body {
 
 /* header layout - w3*/
 header {
-  background-color: rgba(6, 139, 191, 0.9); /* accent5 */
+  background-color: #068BBF(6, 139, 191, 0.9); /* accent5 */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,8 +57,8 @@ header {
 }
 
 /* Site-plan header titles */
-header > h1,
-header > h2 {
+header > h1,        /* Creating.. */
+header > h2 {       /* Card titles.. */
   margin: 0;
   font-family: var(--heading-font);
   color: var(--secondary-color);
@@ -78,12 +75,12 @@ header > h2 {
   align-self: center;
 }
 
-/* navigation bar - w3 */
+/* navigation bar - w3 Home..Contact Us */
 nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  background-color: var(--nav-background-color); /* w4/w5 */
+  background-color: #FFF8E7; /* w4/w5 */
   padding: 25px; /* w5 */
 }
 
@@ -92,23 +89,16 @@ nav a {
   padding: .25 px;  /* w3, w5 update */
   min-width: 120px;
   text-align: center;
-  color: var(--nav-link-color);
+  color: #396E94; /* accent4 */
   text-decoration: none;
   font-weight: 600;
+  text-decoration: none;
 }
 
 /* nav link hover - w4 */
 nav a:hover {
-  background-color: var(--nav-hover-background-color);
-  color: var(--nav-hover-link-color);
-}
-
-/* remove BYUI underlines - w4 */
-nav a,
-.book,
-.join,
-footer a {
-  text-decoration: none;
+  background-color: #396E94; /* accent4 */
+  color: #FFF8E7; /* accent3 */
 }
 
 /* active link - w3*/
@@ -157,6 +147,7 @@ footer a {
   color: var(--accent4-color);
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   margin: 0 0 0.5rem;
+  text-decoration: none;
 }
 
 /* hero subtitle - w3 */
@@ -183,6 +174,7 @@ book now container - w3 */
   color: var(--headline-color-on-color);
   text-decoration: none;
   font-weight: 600;
+  text-decoration: none;
 } 
 
 /* button hover - w4 */
@@ -237,7 +229,7 @@ main.home-grid section {
   grid-column: 1 / -1;  /* spans to full width */
 }
 
-/* W3: mountains image below cards */
+/* mountains image below cards - w3*/
 .mountains {
   width: 100%;
   max-width: 900px;
@@ -289,50 +281,51 @@ footer p {
 
 /* footer links - w3 */
 footer a {
-  color: var(--paragraph-color-on-color); /* w4 update */
+    color: var(--paragraph-color-on-color); /* w4 update */
+    text-decoration: none;
 }
 
 /* footer link hover - w4 */
 footer a:hover {
-  color: var(--nav-hover-link-color);
-  text-decoration: underline;
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
 }
 
 /* social media icons container - w3 */
 .social-media {
-  display: flex;
-  gap: 0.75rem;
+    display: flex;
+    gap: 0.75rem;
 }
 
 /* social icon size - w3 */
 .social {
-  width: 32px;
-  display: block;
+    width: 32px;
+    display: block;
 }
 
 p {
-  margin: 50px auto;   /* W5 */
+    margin: 50px auto;   /* W5 */
 }
 
 
 img {
-  border: 4px solid steelblue; /* W5 */
+    border: 4px solid steelblue; /* W5 */
 }
 
 /* for class="site-plan" on <body> in site plan page */
 
 .site-plan {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 4em 1em;
-  font-size: 18px;
-  text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em 1em;
+    font-size: 18px;
+    text-align: center;
 }
 
 .site-plan img {
-  display: block;
-  margin: 0 auto;
-  max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .site-plan h1,
@@ -341,65 +334,60 @@ img {
 .site-plan h4,
 .site-plan h5,
 .site-plan h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
 }
 
 .site-plan h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .site-plan hr {
-  height: 3px;
-  margin: 35px 0;
-  background: var(--accent1-color);
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
 }
 
 .site-plan p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
-  padding: 1em;
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
 }
 
 /* Color palette */
 .colors {
-  width: 100%;
-  min-width: 350px;
-  margin: 30px auto;
-  text-align: center;
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
 }
 
 .colors th {
-  background-color: #999;
+    background-color: #999;
 }
 
 .colors td {
-  width: 25%;
-  height: 3em;
+    width: 25%;
+    height: 3em;
 }
 
-.primary   { background-color: var(--primary-color); }
-.secondary { background-color: var(--secondary-color); }
-.accent1   { background-color: var(--accent1-color); }
-.accent2   { background-color: var(--accent2-color); }
-
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
 }
 
 /* Sitemap grid  */
 .sitemap {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas:
-    ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
-}
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas:
+        ". . home home . ."
+        ". . . top . ."
+        ". left left right right ."
+        "page2 page2 . . page3 page3";
+    }
 
 .sitemap > div {
   text-align: center;

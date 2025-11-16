@@ -1,8 +1,15 @@
-/*base colors*/
+
+
+
 /* Base */
 :root{
   --sky: #3396D3;   /* Summer Sky */
   --light: #F0F0F0; /* light gray for most text */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 * { box-sizing: border-box; }

@@ -6,8 +6,8 @@
   --primary-color:  #1669C2;
   --secondary-color:#B77B13;
   --accent1-color:  #3B5570;
-  --accent2-color:  #1669C2
-  --accent3-color:  #F2D6A2;
+  --accent2-color:  #1669C2;
+  --accent3-color:  #FFF8E7;
   --accent4-color:  #122640;
   --accent5-color:  #068BBF;
   --accent6-color:  #F2D6A2;
@@ -67,15 +67,15 @@ header > h2 {
   color: var(--secondary-color);
 }
 
+.logo {
+  width: 80px;   /* w4 */
+  display: block;
+}
+
 /* logo link - w3*/
 #logo_link {
   justify-self: center;
   align-self: center;
-}
-
-.logo {
-  width: 80px;   /* w4 */
-  display: block;
 }
 
 /* navigation bar - w3 */
@@ -154,7 +154,7 @@ footer a {
 /* main hero title - w3 */
 .home-title {
   font-family: var(--heading-font);
-  color: var(--accent2-color);
+  color: var(--accent4-color);
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   margin: 0 0 0.5rem;
 }

@@ -63,7 +63,7 @@ header > h1,
 header > h2 {
   margin: 0;
   font-family: var(--heading-font);
-  color: var(--headline-color-on-color);
+  color: var(--secondary-color);
 }
 
 /* logo link - w3*/
@@ -160,7 +160,7 @@ footer a {
 
 /* hero subtitle - w3 */
 #hero-msg h4 {
-  color: var(--headline-color-on-color);
+  color: var(--secondary-color);
   margin: 0;
 }
 

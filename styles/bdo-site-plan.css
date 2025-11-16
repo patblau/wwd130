@@ -30,7 +30,13 @@ Fonts are separated by a & */
   --nav-hover-background-color: #396E94;
 }
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+/* =============== GLOBAL LAYOUT =============== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   max-width: 960px;

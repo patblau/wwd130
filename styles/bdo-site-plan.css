@@ -61,7 +61,7 @@ header > h1,        /* Creating.. */
 header > h2 {       /* Card titles.. */
   margin: 0;
   font-family: var(--heading-font);
-  color: var(--secondary-color);
+  color: #B77B13; /* secondary */
 }
 
 .logo {

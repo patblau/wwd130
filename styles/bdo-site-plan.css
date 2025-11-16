@@ -38,7 +38,6 @@ Fonts are separated by a & */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fcfbfb; /* w4 */
 }
 
 /* ======= HEADER ======= */
@@ -65,10 +64,6 @@ nav {
 
 nav a {
     color: white;
-    text-decoration: none;
-    text-align: center; /* w4 */
-    background-color: black;
-    color: #d9c2a3;  
     text-decoration: none;
 }
 
@@ -103,12 +98,10 @@ nav a {
 #hero-msg h4 {
     margin: 0.5rem 0;
     color: white;
-    text-align: center; /* w4 */
 }
 
 .button-box {
     margin-top: 1rem;
-    text-align: center; /* w4 */
 }
 
 .book {
@@ -117,7 +110,6 @@ nav a {
     padding: 0.8rem 1.5rem;
     text-decoration: none;
     border-radius: 6px;
-    text-decoration: none; /* w4 */
 }
 
 .book:hover { 
@@ -127,8 +119,7 @@ nav a {
 
 .join:hover { 
     background-color: white;
-    color: #6f7364;
-    text-decoration: none; /* w4 */
+    color: #6f7364;    
 }
 
 /* ======= MAIN GRID ======= */
@@ -146,7 +137,7 @@ nav a {
 }
 
 .icon {
-    width: 80px; /* w4 */
+    width: 50px; 
     margin-top: -20px;
 }
 
@@ -189,30 +180,8 @@ footer a {
     text-decoration: none;
 }
 
-footer p a:hover {  /* w4 */
-    text-decoration: underline;
-}
-
 .social img {
     width: 40px;
     margin: 0 10px;
 }
 
-/* week 4 */
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-#hero-msg h1{
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-    background-color: #d9c2a3;
-}

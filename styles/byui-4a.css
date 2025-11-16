@@ -40,6 +40,7 @@ h1 {
 /* Image */
 img { 
     width: 80%; 
+    max-width: 800px;
     border: 4px solid steelblue; }
 
 /* Paragraphs */

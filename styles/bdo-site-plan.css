@@ -65,7 +65,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    text-align: center;
+    text-align: center; /* w4 */
 }
 
 /* ======= HERO SECTION ======= */
@@ -190,4 +190,9 @@ footer a {
 
 main section {
     text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #d9c2a3;
 }

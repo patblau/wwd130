@@ -136,10 +136,11 @@ nav a:hover {
 }
 
 /* main hero title - w3 */
-.home-title {
+#hero-msg .home-title {
   font-family: var(--heading-font);
-  color: black; /* accent2 */
+  color: black; /* or #B77B13 if you want the gold again */
   font-size: clamp(2.2rem, 4vw, 3.2rem);
+  margin: 0 0 0.3rem;
   text-decoration: none;
 }
 

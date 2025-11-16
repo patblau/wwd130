@@ -45,7 +45,8 @@ body {
 /* Container - w4 */
 #content {
   max-width: 1600px;  
-  margin: 0 auto;     
+  margin: 0 auto;    
+} 
 
 /* HEADER & NAV */
 
@@ -160,7 +161,7 @@ footer a {
 
 /* hero subtitle - w3 */
 #hero-msg h4 {
-  color: var(--secondary-color);
+  color: var(--accent4-color);
   margin: 0;
 }
 

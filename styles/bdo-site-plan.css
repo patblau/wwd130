@@ -256,7 +256,7 @@ main.home-grid section {
      flex-direction: row;
      justify-content: center;
      align-items: center;
-     gap: 0.5rem;
+     gap: 0.75rem;
 }
 
 .card-title h2 {
@@ -265,9 +265,17 @@ main.home-grid section {
   color: var(--accent3-color);
 }
 
+/* Icon inside the strip */
 .card-title img {
   width: 40px;
   height: auto;
+}
+
+/* Card titles (don’t clip or make transparent here) */
+.card-title h2 {
+  margin: 0;
+  background: none;
+  color: #068BBF;  /* or whatever title color you want */
 }
 
 /* icon images (width requirement) - w4 */

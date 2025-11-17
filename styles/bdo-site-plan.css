@@ -330,7 +330,7 @@ footer p {
 
 /* footer links - w3 */
 footer a {
-    color: var(--paragraph-color-on-color); /* w4 update */
+    color: var(--accent3-color); /* w4 update */
     text-decoration: none;
 }
 
@@ -352,16 +352,12 @@ footer a:hover {
     display: block;
 }
 
-p {
-    margin: 50px auto;   /* W5 */
-}
-
-
-img {
-    border: 4px solid steelblue; /* W5 */
-}
-
 /* for class="site-plan" on <body> in site plan page */
+
+body.site-plan {
+  background-color: #F2F2F2;
+  text-align: center;
+}
 
 .site-plan {
     max-width: 960px;

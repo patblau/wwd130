@@ -158,7 +158,7 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;            /* Required */
-  background-color: gold;   /* to have text on top *
+  background-color: gold;   /* to have text on top */
   box-sizing: border-box;
 }
 
@@ -184,8 +184,8 @@
   box-sizing: border-box;
   height: 280px;  /* 400 - 60px red & 60px blue */
   overflow: auto;  /* to scroll text if too long */
-
 } 
+
 .blue5 {
   height: 60px;   /* to match red strip */
   clear: both;    /* pushes text below the green square */

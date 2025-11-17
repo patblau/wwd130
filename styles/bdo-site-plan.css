@@ -239,6 +239,18 @@ main.home-grid section {
     border-color: var(--accent6-color);
 }
 
+/* card titles - w3 */
+.card-title {
+     background-color: #FFF8E7; /* accent3 */
+     padding: 1rem;
+     border-radius: 8px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 0.5rem;
+}
+
 .card-title h2 {
   background: inherit;
   -webkit-background-clip: text;

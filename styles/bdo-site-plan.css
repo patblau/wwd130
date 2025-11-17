@@ -156,7 +156,7 @@ nav a:hover {
     background: transparent;
 }
 
-/* main hero title - w3 
+/* main hero title - w3 */
 #hero-msg .home-title {
     font-family: var(--heading-font);
     font-size: clamp(2.2rem, 4vw, 3.2rem);
@@ -164,17 +164,7 @@ nav a:hover {
     text-decoration: none;
     background: none;
     color: inherit
-}*/
-
-/* main hero title - layout only, no color here */
-#hero-msg .home-title {
-  font-family: var(--heading-font);
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
-  margin: 0 0 0.3rem;
-  text-decoration: none;
-  background: none;
-  color: inherit; /* don't force a color */
-}
+};
 
 /* HERO SUBTITLE (h4 inside hero-msg) */
 #hero-msg h4 {
@@ -214,9 +204,10 @@ nav a:hover {
 
 /* main grid container - w3 */
 main.home-grid {
-    padding: 2rem 2.5rem;
+    padding: 2rem; 
     display: grid;
     gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 /* center sections in main grid - w4 */
@@ -228,7 +219,11 @@ main.home-grid section {
 .rivers-card,
 .camping-card,
 .rapids-card {
-     padding: 1rem;
+    padding: 1rem;
+    background-color: transparent;  /* just the inside strip has accent3 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-content {

@@ -30,14 +30,6 @@
     box-sizing: border-box;
 }
 
-/* Headings Base */
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: #068BBF; /* accent5 */
-    background: #FFF8E7; /* accent3 */
-    margin-top: 0;
-}
-
 /*  Body Base  */
 body {
     margin: 0; /* w5 */
@@ -47,11 +39,26 @@ body {
     text-align: center;
 }
 
+/* Headings Base */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #068BBF; /* accent5 */
+    background: #FFF8E7; /* accent3 */
+    margin-top: 0;
+}
+
 /* Container - w4 */
 #content {
     max-width: 1600px;  
     margin: 0 auto;    
 } 
+
+/* Paragraphs (W5) */
+p {
+  margin: 50px auto;
+}
+
+
 
 /* HEADER & NAV */
 

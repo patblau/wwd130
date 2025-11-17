@@ -117,7 +117,15 @@
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
+  display: grid;
+  height: 400px;  /* Required */
+  grid-template-columns: 1fr 1fr;     /* 2 columns */
+  grid-template-rows: repeat(3, 1fr); /* 3 rows */
+}
+
+.content4 div {
+  width: 100px;
+  height: 100px;
 }
 
 .red4    { background-color: red; }

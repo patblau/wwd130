@@ -67,7 +67,7 @@ img {
 
 /* header layout - w3*/
 header {
-    background-color: #068BBF(6, 139, 191, 0.9); /* accent5 */
+    background-color: #068BBF; /* accent5 */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -239,11 +239,11 @@ main.home-grid section {
     border-color: var(--accent6-color);
 }
 
-.card-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+.card-title h2 {
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .card-title img {

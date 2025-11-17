@@ -58,7 +58,10 @@ p {
   margin: 50px auto;
 }
 
-
+/* Default image border (W5) */
+img {
+  border: 4px solid steelblue;
+}
 
 /* HEADER & NAV */
 

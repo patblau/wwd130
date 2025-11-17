@@ -144,8 +144,8 @@
   background-color: green; 
 } 
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   background-color: gold; 
 } 
 .blue4 {

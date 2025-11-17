@@ -83,7 +83,7 @@ header > h2 {       /* Card titles.. */
 }
 
 .logo {
-    width: 80px;   /* w4 */
+    width: 90px;   /* w4 */
     display: block;
 }
 
@@ -299,7 +299,7 @@ main.home-grid section {
 /* message heading - w3 */
 .msg h2 {
     color: var(--headline-color-on-color);
-    margin-top: 0;
+    margin-top: 150px;
 }
 
 /* message paragraph - w3 */

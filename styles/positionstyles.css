@@ -1,12 +1,16 @@
 /* CSS - Name: "positionstyles.css" */
 
-/* Activity 1 styles */
-.content1 {
-  /* This is the parent of the activity 1 boxes. */
-display: grid;
-  
-}
+/* This is the parent of the activity 1 boxes. */
 
+.content1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  /* two equal columns */
+  column-gap: 20px;                /* vertical white bar */
+  row-gap: 20px;                   /* horizontal white bar */
+  background: white;
+  padding: 10px;
+}
+/* Activity 1 box styles */
 .red1 { 
   width: 100px; 
   height: 100px; 

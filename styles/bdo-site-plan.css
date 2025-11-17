@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: #068BBF; /* accent5 */
     background: #FFF8E7; /* accent3 */
-    margin-top: 0;
 }
 
 /* Container - w4 */
@@ -298,6 +297,7 @@ main.home-grid section {
 .msg h2 {
     color: var(--accent3-color);
     margin-top: 150px;
+    background: none
 }
 
 /* H2 hero title with image showing through the letters */

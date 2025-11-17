@@ -221,8 +221,6 @@ main.home-grid section {
 .camping-card,
 .rapids-card {
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 1rem;
 }

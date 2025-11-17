@@ -259,10 +259,9 @@ main.home-grid section {
 }
 
 .card-title h2 {
-  background: inherit;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  margin: 0;
+  background: none;
+  color: var(--accent3-color);
 }
 
 .card-title img {

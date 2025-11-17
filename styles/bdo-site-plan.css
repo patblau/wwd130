@@ -151,7 +151,7 @@ nav a:hover {
     transform: translate(-50%, -50%);
     text-align: center;  /* w4 */
     padding: 1rem 2rem;
-    background-clip: text;
+    background: transparent;
 }
 
 /* main hero title - w3 */

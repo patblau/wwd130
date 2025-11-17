@@ -175,14 +175,14 @@
   width: 150px;
   height: 150px;
   float: left;      /* to wrap text around square */
-  margin: 0 15px 15px 0; /* space around square */
+  margin: 0 15px 15px 0; /* placed in left upper corner of y5 */
   background-color: green; 
 
 } 
 .yellow5 {
-  padding: 15px;
+  padding: 0 15px 15px 15px;
   box-sizing: border-box;
-  height: 280px;  /* 400 - 60px red & 60px blue */
+  height: 200px;  /* 400 - 60px red & 60px blue */
   overflow: auto;  /* to scroll text if too long */
 } 
 

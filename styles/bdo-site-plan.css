@@ -221,8 +221,8 @@ main.home-grid section {
 
 /* card images - w3 */
 .card-img {
-    width: 100%;
-    max-width: 350px;
+    width: 45%;  /* for two images */
+    max-width: 200px;
     display: block;
     margin: 0 auto 0.75rem;
     border-radius: 10px;

@@ -76,23 +76,17 @@ header {
     padding: 1rem 2rem; /* w5 */
 }
 
-/* Site-plan header titles */
-header > h1,        /* Creating.. */
-header > h2 {       /* Card titles.. */
-    margin: 0;
-    font-family: var(--heading-font);
-    color: #B77B13; /* secondary */
-}
 
 .logo {
-    width: 90px;   /* w4 */
-    display: block;
+    width: 100px;   /* w4 */
+    display: block; 
 }
 
 /* logo link - w3*/
 #logo_link {
     justify-self: center;
     align-self: center;
+    padding-top: 5px;
 }
 
 /* navigation bar - w3 Home..Contact Us */
@@ -123,7 +117,7 @@ nav a:hover {
 
 /* active link - w3*/
 #active {
-    background-color: #fff;
+    background-color: #fff8E7;
     color: var(--primary-color);
 }
 

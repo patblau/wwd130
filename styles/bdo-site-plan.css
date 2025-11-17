@@ -136,7 +136,7 @@ nav a:hover {
 /* hero text container - w3 */
 #hero-msg {
   position: absolute;
-  top: 75%;           /* w4, w5 update */
+  top: 85%;           /* w4, w5 update */
   left: 50%;          /* w4 */
   transform: translate(-50%, -50%);
   text-align: center;  /* w4 */
@@ -223,10 +223,9 @@ main.home-grid section {
   margin: 0.5rem auto;
 }
 
-/* background block under mountains+msg - w4 */
- 
+/* background block under mountains+msg - w4 */ 
 #background {
-  height: 725px;   /* W4 */
+  height: 725px;   /* w4 */
   background-color: var(--accent3-color);
   grid-column: 1 / -1;  /* spans to full width */
 }

@@ -158,8 +158,7 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;            /* Required */
-  background-color: gold;   /* to have text on top */
-  padding: 0;
+  background-color: gold;   /* to have text on top *
   box-sizing: border-box;
 }
 

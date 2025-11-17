@@ -181,9 +181,10 @@
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  padding: 15px;
+  box-sizing: border-box;
+  height: 280px;  /* 400 - 60px red & 60px blue */
+  overflow: auto;  /* to scroll text if too long */
 
 } 
 .blue5 {
@@ -191,6 +192,7 @@
   height: 100px; 
   background-color: blue; 
 } 
+
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */

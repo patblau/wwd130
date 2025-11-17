@@ -221,7 +221,7 @@ main.home-grid section {
 .camping-card,
 .rapids-card {
     padding: 1rem;
-    align-items: center;
+    align-items: left;
     gap: 1rem;
 }
 

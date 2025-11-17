@@ -236,6 +236,11 @@ main.home-grid section {
   gap: 0.5rem;
 }
 
+.card-title img {
+  width: 40px;
+  height: auto;
+}
+
 /* icon images (width requirement) - w4 */
 .icon {
     width: 80px;

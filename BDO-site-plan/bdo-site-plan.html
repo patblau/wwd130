@@ -89,7 +89,9 @@
 
   <section>
     <h2>Branding</h2>
-    <h3>"Big Water. Big Mountains. Big Fun."</h3>
+
+    <h3>Motto</h3>
+      <p><strong>"Big Water. Big Mountains. Big Fun."</strong></p>
 
     <img src="../images/logo.png" alt="Big Drop Outfitters Logo">
       <p>
@@ -136,6 +138,7 @@
           <th>#A43312</th> <!-- Hunter Green -->
           <th>#F2D6A2</th> <!-- Sandy brown -->
         </tr>
+
         <!-- Replace the numbers in the boxes below with your hex color codes.
              Use the class names to link these colors to your CSS variables or rules. -->
         <tr>
@@ -152,6 +155,7 @@
           <td class="accent9">#F2D6A2</td>    <!-- Warm Sand -->
         </tr>
       </table>
+
       <p class="colored">
         Blues and teals suggest water and sky. Greens and earthy tans support camping and nature. 
         Warm oranges and rusts add energy and excitement for the adventure.
@@ -168,58 +172,6 @@
     Headings: Altos Mono, Al Bayan, Consolas, color: #145169, 
     body: Cavolini, Menlo, Chalkboard, color: #050300 
     Big Caslon, -->
- 
-    <hr>
-      <section>
-        <h2>Typography</h2>
-
-        <h3>Heading Font</h3>
-        <p>
-          Headings use a friendly, hand-drawn style to suggest an adventurous, family-oriented brand.
-        </p>
-
-        <h3>Paragraph Font</h3>
-        <p>
-          Body text uses a clean, readable sans-serif font for trip information, safety notes, and 
-          booking instructions.
-        </p>
-
-        <h4>Paragraph Font Example</h4>
-        <p>
-          he best Whitewater Rafting Colorado has to offer. Big Drop Outfitters
-          offers rafting on the Colorado and Roaring Fork Rivers in Glenwood
-          Springs. Since 1974, we have been family owned and operated, rafting the
-          Shoshone section of Glenwood Canyon and beyond.
-        </p>
-
-        <h4>Colored Paragraph Example</h4>
-        <p class="colored">
-          Trips vary from mild and great for families, to trips exclusively for
-          physically fit and experienced rafters. No matter what type of river
-          adventures you are seeking, Big Drop Outfitters can make it happen for you.
-        </p>
-      </section>
-    <hr>
-
-    <!-- SIMPLE NAV PREVIEW -->
-    <section>
-      <h2>Navigation</h2>
-      <p>Final site navigation will include:</p>
-      <ul>
-        <li>Home (index.html)</li>
-        <li>River Trips (Page 2)</li>
-        <li>Contact / About</li>
-        <li>Site Plan (this page)</li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Big Drop Outfitters Site Plan &copy; 2025 | Pat Blau</p>
-  </footer>
-</body>
-</html>
 
 <style>
 :root {
@@ -230,93 +182,126 @@
   --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
   --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
 }
-/* Brand Colors from Coolors Palette */
-
-/* Name with 0.8 transparency - Name*/
-h1{
-  font-family: var(--Font3);
-  color: var(--accent5);
-}
-
-/* link and hover*/
-h2{
-  font-family: var(--Font2);
-  color: var(--brand);
-}
-
-/* Navigation styles for .plan-nav (HTML moved out of the style block) */
-.plan-nav {
-  margin: 0.5em 0;
-}
-.plan-nav a {
-  margin-right: 1em;
-  text-decoration: none;
-  color: var(--brand);
-}
-
-/* Buttons demo */
-.button-primary{
-  background: var(--flame);
-  color: var(--white);
-}
-
-.button-primary:hover{
-  background: var(--secondary);
-}
-
-/* Links */
-a{ color: var(--brand); }
-a:hover{ color: var(--secondary); }
-
-main{
-  padding:16px 20px;
-  line-height:1.6;
-}
-
-/* Paragraph: "Baskerville", Arial, sans-serif */
-p {
-  font-family: "Baskerville", Arial, sans-serif;
-  color: var(--ink);
-  margin: .5em 0;
-}
-
-p.colored{
-  background-color: #0F9ED5;
-  font-family: "Cavolini, Menlo, Chalkboard";
-}
-
-/* Image styles */
-img.logo {
-  max-width: 200px;
-  height: auto;
-}
-
-img{
-  max-width: 100%;
-  height: auto;
-}
-
-/* Image card styles placed in CSS; HTML moved out of the style block */
-.img-card {
-  text-align: center;
-  background-color: var(--white);
-  color: var(--brand);
-  padding: 10px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-}
-
-.img-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-}
-
-/* Horizontal rule styles */
-hr{
-  border: none;
-  border-top: 2px solid var(--brand);
-  margin: 2em 0;
-}
 </style>
 
-<
+  <hr>
+      
+ <!-- TYPOGRAPHY -->
+    <section>
+      <h2>Typography</h2>
+
+      <h3>Heading Font</h3>
+      <p>
+        Headings use a playful, handwritten style (such as Segoe Print / Give You Glory) to emphasize 
+        personality and adventure.
+      </p>
+
+      <h3>Paragraph Font</h3>
+      <p>
+        Body text uses a clean, readable sans-serif font (such as Andika or a similar body font) for 
+        clarity in trip descriptions, safety information, and instructions.
+      </p>
+
+      <h4>Heading Example</h4>
+      <h3>Creating Big Adventures Together.</h3>
+
+      <h4>Paragraph Example</h4>
+      <p>
+        The best whitewater rafting experiences balance excitement with safety. Big Drop Outfitters 
+        offers family-friendly trips, scenic floats, and thrilling rapids designed for a variety of 
+        ages and experience levels.
+      </p>
+
+      <h4>Colored Paragraph Example</h4>
+      <p class="colored">
+        Trips vary from gentle floats perfect for beginners, to more intense routes suitable for 
+        confident, physically fit rafters. No matter what type of experience you are seeking, 
+        Big Drop Outfitters can help you plan a memorable day on the river.
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- SITEMAP -->
+    <section>
+      <h2>Sitemap</h2>
+
+      <div class="sitemap">
+        <div class="sm-home">Home</div>
+        <div class="top"></div>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="sm-page2">River Trips</div>
+        <div class="sm-page3">Contact / About</div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- PAGE CONTENT OUTLINE -->
+    <section>
+      <h2>Content Outline</h2>
+
+      <h3>Home Page</h3>
+      <p>
+        Hero image with tagline “Creating Big Adventures Together.” Short welcome paragraph that 
+        introduces Big Drop Outfitters. Three feature cards for Rivers, Camping, and Rapids, each 
+        with an image, icon, and brief description. A scenic image plus a message box describing 
+        the experience and a “Join Us” or “Book Now” call to action.
+      </p>
+
+      <h3>River Trips Page (Page 2)</h3>
+      <p>
+        Sections describing different trip types: family floats, intermediate runs, and advanced 
+        rapids. Each section includes distance, duration, difficulty level, age guidelines, and 
+        what is included (gear, guide, snacks, etc.). A simple FAQ about safety and what to bring. 
+        A clear link or button to contact us for booking.
+      </p>
+
+      <h3>Contact / About Page</h3>
+      <p>
+        Brief history and mission of Big Drop Outfitters. Introduction to the guides and team values 
+        (safety, family focus, and fun). Contact information (phone, email), a simple contact form 
+        or instructions, and possibly a map or location description. Reminder to book early during 
+        peak seasons.
+      </p>
+    </section>
+
+    <hr>
+    
+    <!-- WIREFRAMES (DESCRIPTIVE) -->
+    <section>
+      <h2>Wireframes</h2>
+
+      <h3>Home Page Wireframe</h3>
+      <p>
+        Layout includes: logo and navigation at the top, full-width hero image with title and 
+        button centered on the image, three cards in a row (Rivers, Camping, Rapids), then a 
+        wide scenic image with a colored message box overlaid or directly below it, followed by 
+        a footer with links and social icons.
+      </p>
+
+      <h3>River Trips Page Wireframe</h3>
+      <p>
+        Simple header and hero stripe at top, followed by stacked sections for each trip type 
+        with headings, icons, short text, and “Learn More / Book Now” buttons. Footer repeats 
+        navigation and social links.
+      </p>
+
+      <h3>Contact / About Page Wireframe</h3>
+      <p>
+        Header and hero strip, “About Us” text section, contact info or form section, and footer. 
+        Clean and simple layout so users can quickly find how to get in touch.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Big Drop Outfitters Site Plan &copy; 2025 | Pat Blau</p>
+  </footer>
+</body>
+</html>
+
+
+

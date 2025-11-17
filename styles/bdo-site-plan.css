@@ -217,7 +217,8 @@ main.home-grid section {
   max-width: 350px;
   display: block;
   margin: 0 auto 0.75rem;
-  border-radius: 6px;
+  border-radius: 10px;
+  border-color: var(--accent6-color)
 }
 
 /* icon images (width requirement) - w4 */
@@ -225,7 +226,6 @@ main.home-grid section {
   width: 80px;
   display: block;
   margin: 0.5rem auto;
-  color: var(--secondary-color);
 }
 
 /* background block under mountains+msg - w4 */ 

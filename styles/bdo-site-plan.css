@@ -313,7 +313,7 @@ main.home-grid section {
 /* footer layout - w3 */
 footer {
     background-color: var(--accent4-color);
-    color: var(--accent6-color);
+    color: var(--accent3-color);
     padding: 1.5rem 2rem;
     display: flex;
     flex-wrap: wrap;

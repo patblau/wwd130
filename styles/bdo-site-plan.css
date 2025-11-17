@@ -300,6 +300,17 @@ main.home-grid section {
     margin-top: 150px;
 }
 
+/* H2 hero title with image showing through the letters */
+.image-text {
+  background-image: url("../images/hero3.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;                 /* for most browsers */
+  -webkit-text-fill-color: transparent; /* for Chrome/Safari */
+}
+
 /* message paragraph - w3 */
 .msg p {
     color: var(--accent3-color);

@@ -175,7 +175,7 @@
   width: 150px;
   height: 150px;
   float: left;      /* to wrap text around square */
-  margin: 15px; 
+  margin: 0 15px 15px 0; /* space around square */
   background-color: green; 
 
 } 

@@ -21,6 +21,7 @@
 .blue1{ 
   width: 100%; 
   height: 75px;
+  grid-column: 1 / -1;   /* top bar, full width */
 
 } 
 .green1,

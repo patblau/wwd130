@@ -293,7 +293,7 @@ main.home-grid section {
     padding: 2rem;
     margin: 1.5rem auto 2rem;
     max-width: 900px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* message heading - w3 */
@@ -313,7 +313,7 @@ main.home-grid section {
 /* footer layout - w3 */
 footer {
     background-color: var(--accent4-color);
-    color: var(--paragraph-color-on-color);
+    color: var(--accent6-color);
     padding: 1.5rem 2rem;
     display: flex;
     flex-wrap: wrap;

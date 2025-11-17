@@ -355,8 +355,8 @@ footer a:hover {
 /* for class="site-plan" on <body> in site plan page */
 
 body.site-plan {
-  background-color: #F2F2F2;
-  text-align: center;
+    background-color: #F2F2F2;
+    text-align: center;
 }
 
 .site-plan {
@@ -364,7 +364,6 @@ body.site-plan {
     margin: 0 auto;
     padding: 4em 1em;
     font-size: 18px;
-    text-align: center;
 }
 
 .site-plan img {
@@ -380,7 +379,7 @@ body.site-plan {
 .site-plan h5,
 .site-plan h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+  color: var(--headline-color-on-white);
 }
 
 .site-plan h2 {

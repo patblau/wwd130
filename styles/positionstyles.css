@@ -79,7 +79,7 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: repeat(7, 1fr);  /* 7 columns */
-  grid-template-rows: repeat(4, 100px);   /* 4 rows *//
+  grid-template-rows: repeat(4, 100px);   /* 4 rows */
   background-color: white;
 }
 
@@ -99,12 +99,12 @@
   background-color: red; 
 } 
 .green3 {
-  grid-column: 2 / 4;  
+  grid-column: 1 / 4;  
   grid-row: 2 / 4;
   background-color: green;
 } 
 .yellow3 {
-  grid-column: 6 / 8;  
+  grid-column: 5 / 8;  
   grid-row: 2 / 4; 
   background-color: gold; 
 } 

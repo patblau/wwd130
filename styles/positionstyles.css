@@ -157,7 +157,10 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
+  height: 400px;            /* Required */
+  background-color: gold;   /* to have text on top */
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .red5    { background-color: red; }

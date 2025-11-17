@@ -42,6 +42,12 @@
   height: 300px;
 }
 
+.content2 div {
+  width: 100px;
+  height: 100px;
+}
+
+/* colors */
 .red2    { background-color: red; }
 .green2  { background-color: green; }
 .yellow2 { background-color: gold; }

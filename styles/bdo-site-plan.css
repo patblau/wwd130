@@ -291,7 +291,7 @@ main.home-grid section {
     background-color: var(--paragraph-background-color);
     color: var(--accent3-color);
     margin: 1.5rem auto 2rem;
-    max-width: 800px;
+    max-width: 400px;
     border-radius: 0px;
     padding: 2rem 1rem;
     background-color: transparent;

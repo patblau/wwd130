@@ -78,9 +78,9 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 2 equal columns */
-  grid-template-rows: 100px 200px 100px; /* top, middle, bottom */
-  grid-column-gap: 0;
+  grid-template-columns: repeat(7, 1fr);  /* 7 columns */
+  grid-template-rows: repeat(4, 100px);   /* 4 rows *//
+  background-color: white;
 }
 
 .content3 div { /* to auto fill grid cells. */

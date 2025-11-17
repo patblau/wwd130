@@ -188,8 +188,8 @@
 
 } 
 .blue5 {
-  width: 100px; 
-  height: 100px; 
+  height: 60px;   /* to match red strip */
+  clear: both;    /* pushes text below the green square */
   background-color: blue; 
 } 
 

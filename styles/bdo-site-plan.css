@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
+h2 {
+  color: #068BBF;
+}
+
 /* Container - w4 */
 #content {
     max-width: 1600px;  
@@ -155,10 +159,11 @@ nav a:hover {
 /* main hero title - w3 */
 #hero-msg .home-title {
     font-family: var(--heading-font);
-    color: black; 
     font-size: clamp(2.2rem, 4vw, 3.2rem);
     margin: 0 0 0.3rem;
     text-decoration: none;
+    background: none;
+    color: inherit;
 }
 
 /* HERO SUBTITLE (h4 inside hero-msg) */

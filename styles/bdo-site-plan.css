@@ -30,13 +30,21 @@
   box-sizing: border-box;
 }
 
+/* Headings Base */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #068BBF; /* accent5 */
+    background: #FFF8E7; /* accent3 */
+    margin-top: 0;
+}
+
 /*  Body Base  */
 body {
-  margin: 0; /* w5 */
-  font-family: var(--paragraph-font);
-  color: black;
-  background-color: var(--accent5-color);
-  text-align: center;
+    margin: 0; /* w5 */
+    font-family: var(--paragraph-font);
+    color: black;
+    background-color: var(--accent5-color);
+    text-align: center;
 }
 
 /* Container - w4 */
@@ -138,13 +146,18 @@ nav a:hover {
 /* main hero title - w3 */
 #hero-msg .home-title {
   font-family: var(--heading-font);
-  color: black; /* or #B77B13 if you want the gold again */
+  color: black; 
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   margin: 0 0 0.3rem;
   text-decoration: none;
 }
 
-
+/* HERO SUBTITLE (h4 inside hero-msg) */
+#hero-msg h4 {
+  color: black;              
+  font-weight: 500;
+  margin: 0;
+}
 
 /*book now container - w3 */
 .button-box {

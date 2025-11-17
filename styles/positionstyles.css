@@ -17,28 +17,18 @@
 .yellow1 { background-color: gold; }
 .blue1   { background-color: blue; }
 
-.red1 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
+.red1, 
+.blue1{ 
+  width: 100%; 
+  height: 75px;
 
 } 
-.green1 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
-
-} 
+.green1,
 .yellow1 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  width: 200px; 
+  height: 200px; 
 } 
-.blue1 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
-} 
+
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */

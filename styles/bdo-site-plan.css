@@ -291,7 +291,7 @@ main.home-grid section {
     background-color: var(--paragraph-background-color);
     color: var(--accent3-color);
     margin: 1.5rem auto 2rem;
-    max-width: 400px;
+    max-width: 1800px;
     border-radius: 0px;
     padding: 2rem 1rem;
     background-color: transparent;
@@ -347,6 +347,7 @@ footer a:hover {
     gap: 2.5rem;
     justify-content: center;
     margin-top: 20px; 
+    margin-right: 20px;
     width: 100%;
 }
 

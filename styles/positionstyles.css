@@ -9,6 +9,8 @@
   row-gap: 20px;                   /* horizontal white bar */
   background: white;
   padding: 10px;
+  justify-items: center;
+  align-items: center;
 }
 /* Activity 1 box styles */
 /* colors */

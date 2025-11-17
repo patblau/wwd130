@@ -166,15 +166,14 @@ nav a:hover {
     color: inherit
 }*/
 
-/* H2 hero title with image showing through the letters */
-#hero-msg .home-title.image-text { /* w5 */
-  background-image: url("../images/hero3.jpg");
-  background-size: cover;
-  background-position: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;                     /* for most browsers */
-  -webkit-text-fill-color: transparent;   /* for Chrome/Safari */
+/* main hero title - layout only, no color here */
+#hero-msg .home-title {
+  font-family: var(--heading-font);
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  margin: 0 0 0.3rem;
+  text-decoration: none;
+  background: none;
+  color: inherit; /* don't force a color */
 }
 
 /* HERO SUBTITLE (h4 inside hero-msg) */

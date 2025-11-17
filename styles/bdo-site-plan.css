@@ -352,7 +352,7 @@ footer a:hover {
 /* social icon size - w3 */
 .social {
     width: 15px;
-    display: block;
+    height: auto; 
 }
 
 /* for class="site-plan" on <body> in site plan page */

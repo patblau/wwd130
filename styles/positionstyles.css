@@ -169,13 +169,14 @@
 .blue5   { background-color: blue; }
 
 .red5 { 
-  width: 100px; 
-  height: 100px; 
+  height: 60px;
   background-color: red; 
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 150px;
+  height: 150px;
+  float: left;      /* to wrap text around square */
+  margin: 15px; 
   background-color: green; 
 
 } 

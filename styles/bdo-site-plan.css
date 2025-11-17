@@ -163,7 +163,7 @@ nav a:hover {
 /* HERO SUBTITLE (h4 inside hero-msg) */
 #hero-msg h4 {
     color: black;              
-    font-weight: 500;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -177,14 +177,14 @@ nav a:hover {
 .book,
 .join {
     display: inline-block;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-decoration: none;  /* W4 */
+    font-size: 18px;          /* W5 */
     padding: 0.6rem 1.4rem;
     margin-top: 0.5rem;
     border-radius: 4px;
-    background-color: var(--accent4-color);
-    color: var(--accent3-color);
-    text-decoration: none;
     font-weight: 600;
-    text-decoration: none;
 } 
 
 /* button hover - w4 */

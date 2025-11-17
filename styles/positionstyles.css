@@ -65,10 +65,11 @@
 } 
 
 .yellow2 {
-  width: 100px; 
-  height: 100px; 
+  grid-column: 3 / 5;
+  grid-row: 3 / 5; 
   background-color: gold; 
 } 
+
 .blue2 {
   width: 100px; 
   height: 100px; 

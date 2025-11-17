@@ -176,8 +176,8 @@ nav a:hover {
   padding: 0.6rem 1.4rem;
   margin-top: 0.5rem;
   border-radius: 4px;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: var(--accent4-color);
+  color: var(--accent6-color);
   text-decoration: none;
   font-weight: 600;
   text-decoration: none;

@@ -289,8 +289,7 @@ main.home-grid section {
 /* message section - w3*/
 .msg {
     background-color: var(--paragraph-background-color);
-    color: var(--accent4-color);
-    padding: 2rem;
+    color: var(--accent3-color);
     margin: 1.5rem auto 2rem;
     max-width: 900px;
     border-radius: 10px;
@@ -298,13 +297,13 @@ main.home-grid section {
 
 /* message heading - w3 */
 .msg h2 {
-    color: var(--accent4-color);
+    color: var(--accent3-color);
     margin-top: 150px;
 }
 
 /* message paragraph - w3 */
 .msg p {
-    color: var(--accent4-color);
+    color: var(--accent3-color);
     line-height: 1.6;
 }
 

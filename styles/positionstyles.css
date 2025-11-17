@@ -35,7 +35,17 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 400px;
+  height: 300px;
 }
+
+.red2    { background-color: red; }
+.green2  { background-color: green; }
+.yellow2 { background-color: gold; }
+.blue2   { background-color: blue; }
+
 .red2 {
   width: 100px; 
   height: 100px; 
@@ -60,6 +70,12 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */
 }
+
+.red3    { background-color: red; }
+.green3  { background-color: green; }
+.yellow3 { background-color: gold; }
+.blue13  { background-color: blue; }
+
 .red3 {
   width: 100px; 
   height: 100px; 
@@ -85,6 +101,12 @@
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
 }
+
+.red4    { background-color: red; }
+.green4  { background-color: green; }
+.yellow4 { background-color: gold; }
+.blue4   { background-color: blue; }
+
 .red4 {
   width: 100px; 
   height: 100px; 
@@ -110,6 +132,12 @@
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
 }
+
+.red5    { background-color: red; }
+.green5  { background-color: green; }
+.yellow5 { background-color: gold; }
+.blue5   { background-color: blue; }
+
 .red5 { 
   width: 100px; 
   height: 100px; 
@@ -136,6 +164,12 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
 }
+
+.red6    { background-color: red; }
+.green6  { background-color: green; }
+.yellow6 { background-color: gold; }
+.blue6   { background-color: blue; }
+
 .red6 {
   width: 100px; 
   height: 100px; 

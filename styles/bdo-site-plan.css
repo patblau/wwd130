@@ -231,8 +231,7 @@ main.home-grid section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;   /* space between the two images */
+    gap: 1rem;  
 }
 
 /* card images - w3 */
@@ -243,6 +242,7 @@ main.home-grid section {
     margin: 0 auto 0.75rem;
     border-radius: 10px;
     border-color: var(--accent6-color);
+    box-sizing: border-box;  /* W5 box */
 }
 
 /* card titles - w3 */

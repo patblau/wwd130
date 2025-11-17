@@ -229,6 +229,13 @@ main.home-grid section {
     border-color: var(--accent6-color);
 }
 
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 /* icon images (width requirement) - w4 */
 .icon {
     width: 80px;

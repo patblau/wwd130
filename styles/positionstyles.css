@@ -220,8 +220,10 @@
 
 .blue6 {
   background: blue;
-  left: 100px;
-  top: 100px;
+  top: 200px;        
+  left: 0px;         
+  width: 400px;      
+  height: 600px;     
   z-index: 2;
 }
 

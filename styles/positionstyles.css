@@ -195,11 +195,16 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
-  
+
   display: grid;
   grid-template-columns: repeat(5, 100px);
   grid-template-rows: repeat(5, 100px);
   position: relative;
+}
+.content6 div {
+  width: 200px; /* for 2 columns wide x 2 rows tall */
+  height: 200px; 
+  position: absolute;
 }
 
 .red6    { background-color: red; }

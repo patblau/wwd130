@@ -224,15 +224,20 @@
   top: 100px;
   z-index: 2;
 }
+/* Yellow – right on top of blue */
+.yellow6 {
+  background: gold;
+  left: 300px;
+  top: 100px;
+  z-index: 3;
+}
+
 .green6 {
   width: 100px; 
   height: 100px; 
   background-color: green; 
 } 
-.yellow6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+
 
 
 

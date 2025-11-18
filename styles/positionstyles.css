@@ -213,8 +213,9 @@
 .blue6   { background-color: blue; }
 
 .red6 {
-  width: 100px; 
-  height: 100px; 
+  left: 0px;
+  top: 0px;
+  z-index: 1;
   background-color: red; 
 } 
 .green6 {

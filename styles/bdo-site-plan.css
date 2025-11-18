@@ -177,8 +177,8 @@ nav a:hover {
 .book,
 .join {
     display: inline-block;
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
+    color: white;
+    background-color: var(--secondary-color);
     text-decoration: none;  /* W4 */
     font-size: 18px;          /* W5 */
     padding: 0.6rem 1.4rem;

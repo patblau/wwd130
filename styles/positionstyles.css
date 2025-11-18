@@ -211,7 +211,7 @@
 .blue6   { background-color: blue; }
 
 .red6 {
-  top: 0px;          /* row 1 x col 1 */
+  background: red;
   left: 0px;         
   width: 400px;      
   height: 200px;     
@@ -229,9 +229,10 @@
 
 /* Yellow – right on top of blue */
 .yellow6 {
-  background: gold;
-  left: 300px;
-  top: 100px;
+  top: 400px;        /* row 3 */
+  left: 200px;       /* col 1 → 2 */
+  width: 200px;      /* 1 column */
+  height: 200px;     /* 1 row */
   z-index: 3;
 }
 

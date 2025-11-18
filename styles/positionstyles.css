@@ -218,6 +218,12 @@
   z-index: 1;
   background-color: red; 
 } 
+.blue6 {
+  background: blue;
+  left: 100px;
+  top: 100px;
+  z-index: 2;
+}
 .green6 {
   width: 100px; 
   height: 100px; 
@@ -227,12 +233,7 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-} 
-.blue6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
-} 
+
 
 
 /* Do not make any changes below here */

@@ -171,6 +171,7 @@ nav a:hover {
 .button-box {
     margin-top: 1rem;
     text-align: center; /* w4 */
+    padding-bottom: 40px;
 }
 
 /* buttons (.book, .join) - w3 */

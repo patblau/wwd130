@@ -230,7 +230,7 @@
 /* YELLOW — row 3/4, col 1/2 */
 .yellow6 {
   background: gold;
-  top: 400px;        
+  bottom: 0px;        
   right: 0px;       
   width: 200px;      
   height: 400px;     

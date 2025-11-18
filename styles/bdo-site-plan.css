@@ -180,9 +180,13 @@ nav a:hover {
 
 /* HERO SUBTITLE (h4 inside hero-msg) */
 #hero-msg h4 {
-    color: black;              
+    color: white;              
     font-weight: 700;
     margin: 0;
+    padding: 0.5rem 1rem;                       
+    border-radius: 6px;                         
+    display: inline-block;  
+    background: var(--accent1-color);                       
 }
 
 /*book now container - w3 */

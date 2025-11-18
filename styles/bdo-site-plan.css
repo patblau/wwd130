@@ -26,9 +26,9 @@
 /* Basic CSS variables used below */
 :root {
   --Font1: "Consolas", "Menlo", monospace; /* h3 */
-  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
+  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h4 */
   --Font3: "Give You Glory", "Andika", "Cavolini", serif; /* h1 */
-  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
+  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h2 */
   --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
 
   /* Common aliases used elsewhere in the stylesheet */

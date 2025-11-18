@@ -34,7 +34,7 @@
 body {
     margin: 0; /* w5 */
     font-family: var(--paragraph-font);
-    color: black;
+    color: white;
     background-color: var(--accent5-color);
     text-align: center;
 }

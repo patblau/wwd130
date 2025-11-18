@@ -233,10 +233,11 @@
 }
 
 .green6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
-} 
+  background: green;
+  left: 0px;
+  top: 200px;
+  z-index: 4;
+}
 
 
 

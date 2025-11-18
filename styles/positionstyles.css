@@ -211,17 +211,20 @@
 .blue6   { background-color: blue; }
 
 .red6 {
-  left: 0px;
-  top: 0px;
+  top: 0px;          /* row 1 x col 1 */
+  left: 0px;         
+  width: 400px;      
+  height: 200px;     
   z-index: 1;
-  background-color: red; 
-} 
+}
+
 .blue6 {
   background: blue;
   left: 100px;
   top: 100px;
   z-index: 2;
 }
+
 /* Yellow – right on top of blue */
 .yellow6 {
   background: gold;

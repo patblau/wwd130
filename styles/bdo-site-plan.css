@@ -157,14 +157,6 @@ nav a:hover {
     display: block;
 }
 
-.section-divider {
-    height: 4px;
-    width: 100%;
-    background-color: var(--accent3-color); /* eggshell */
-    border: none;
-    margin: 0 auto;
-}
-
 /* hero text container - w3 */
 #hero-msg {
     position: absolute;
@@ -406,6 +398,15 @@ footer a:hover {
 body.site-plan {
     background-color: #F2F2F2;
     text-align: center;
+}
+
+
+.section-divider {
+    height: 4px;
+    width: 100%;
+    background-color: var(--accent3-color); /* eggshell */
+    border: none;
+    margin: 0 auto;
 }
 
 .site-plan {

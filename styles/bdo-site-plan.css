@@ -481,6 +481,15 @@ p.colored {
     color: var(--paragraph-color-on-color);
 }
 
+/* Full-width eggshell divider between sections */
+.section-divider {
+    height: 4px;
+    width: 100%;
+    background-color: var(--accent3-color); /* eggshell */
+    border: none;
+    margin: 0 auto;
+}
+
 /* Sitemap grid  */
 .sitemap {
     display: grid;

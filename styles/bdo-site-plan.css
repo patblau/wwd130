@@ -94,6 +94,10 @@ header {
     padding: 1rem 2rem; /* w5 */
 }
 
+#active {
+    background-color: #FFF8E7;
+    color: var(--primary-color);
+}
 
 .logo {
     width: 50px;   /* w4 */

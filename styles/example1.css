@@ -7,10 +7,11 @@
   height: 500px;
   border: 1px solid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;    
   grid-template-rows: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
+  justify-items: center;   /* If the grid container is completely filling the parent element it is in,*/
+  align-items: center;   /* /* it is technically already centered...it can't move.*/
+  
 }
 
 .content2 {
@@ -20,14 +21,22 @@
   display: grid;
   grid-template-columns: 150px 150px;
   grid-template-rows: 150px 150px;
+  justify-content: center;   /* the contents of the grid is the same size as the grid cell, */
+  align-content: center;   /* but the grid itself is smaller than the space it has available. */
+
+
 }
 .content3 {
   width: 80%;
   height: 500px;
   border: 1px solid;
   display: grid;
-  grid-template-columns: 150px 150px;
-  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px;  /* the grid container smaller than the parent, and the */
+  grid-template-rows: 150px 150px;     /* grid items smaller than the grid cell*/
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .red {

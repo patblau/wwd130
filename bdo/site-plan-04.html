@@ -4,40 +4,14 @@
 <head>
   <meta charset="utf-8" />
   <title>Site Plan</title>
-  <link type="text/css" rel="stylesheet" href="../bdo-site-plan.css" />
+  <link type="text/css" rel="stylesheet" href="../bdo-site-plan04.css" />
 </head>
 
 <body>
-
-  <!-- For instructor use only -->
-  <section>
-    <h2>Assignment Index Files (Notes for Instructor)</h2>
-    <p>This site uses a shared stylesheet: <code>styles/bdo-site-plan.css</code>.</p>
-    <p>Each week’s HTML for the home page is in its own folder:</p>
-    <ul>
-        <li>
-            Week 3 Home Page:
-            <a href="../bdo-W3/index.html">BDO-W3/index.html</a>
-        </li>
-        <li>
-            Week 4 Home Page:
-            <a href="../BDO-W4/index.html">BDO-W4/index.html</a>
-        </li>
-        <li>
-            Week 5 Home Page:
-            <a href="../bdo-W5/index.html">BDO-W5/index.html</a>
-        </li>
-    </ul>
-    <p>
-        All weeks share <code>bdo-site-plan.css</code>; only the HTML in each week’s
-        <code>index.html</code> changes for the assignments.
-    </p>
-</section>
-
   <header>
     <h1>Big Drop Outfitters Site Plan</h1>
     <h2>Pat Blau</h2>
-    <h2>WDD 130-A1</h2>
+    <h2>WDD 130-A1 W4</h2>
     <!-- In the header above, add the name of your site, your name and class number. For example if
       you are in section 3 you would put WDD 130-03 -->
   </header>
@@ -156,14 +130,27 @@
     </table>
 
     <!-- ------------------------Steps 10-12------------------------------ -->
-
-    <h3>Typography</h3>
 <!-- Heading and paragraph font setup -->
+
+  <style>
+    :root {
+    /* Basic CSS variables used below */
+      --Font1: "Consolas", "Menlo", monospace; /* h3 */
+      --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
+      --Font3: "Segoe Print", "Give You Glory", "Comic Sans MS", "cursive"; /* h1 */
+      --Font4: "Aptos (Body)","Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
+      --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
+    }
+  </style>
+
+  <h3>Typography</h3>
+   <p>Our typography choices reflect the adventurous spirit of our brand. We use a 
+    combination of playful and bold fonts to convey excitement and approachability.</p>
 
 <style>
   /* Headings: Bookman Old Style, bold, #145169 */
   h3, h4 {
-    font-family: "Bookman Old Style", serif;
+    font-family: var(--Font3);
     font-weight: bold;
     color: #145169;
   }

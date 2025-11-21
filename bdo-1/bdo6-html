@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Whitewater Rafting Vacations | Big Drop Outfitters | Home</title>
+
+    <!-- Main Website Stylesheet -->
+    <link rel="stylesheet" href="../styles/bdo-site-plan.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+ 
+  <body>
+  <!-- Content container (centers & limits width) -->
+  <div id="content">
+
+    <!-- Header -->
+    <header>
+      <a id="logo_link" href="../bdo-w5/index.html">
+        <img class="logo" src="../images/logo.png" alt="Big Drop Outfitters Logo">
+      </a>
+
+      <nav>
+        <a href=".index.html">Home</a>
+        <a href="rivers.html">River Trips</a>
+        <a href="contactus.html">Contact</a>
+        <a href="../bdo-site-plan/index.html">Site Plan</a>
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+    </header>
+
+     <!-- HERO SECTION -->
+    <div id="hero">
+      <div id="hero-box">
+          <img id="hero-img" src="../images/hero3.jpg" alt="People rafting">
+      </div>
+
+      <section id="hero-msg">
+          <h1 class="home-title">Creating Big Adventures Together.</h1>
+          <h4>Every splash tells a story.</h4>
+          <div class="button-box">
+              <a class="book" href="contactus.html">Book Now</a>
+          </div>
+      </section>
+</div>
+   
+  <!-- Main Content -->
+  <main class="home-grid">  
+    <section class="rivers-card">
+      <div class="card-content">
+        <img class="card-img" src="../images/rivers.jpg" alt="River">
+        <img class="card-img" src="../images/water.jpg" alt="river icon">
+      </div>
+
+      <div class="card-title">
+        <img src="../images/river_icon.png" alt="river icon">
+        <h2>Rivers</h2>
+      </div>
+    </section>
+
+    <section class="camping-card">
+      <div class="card-content">
+        <img class="card-img" src="../images/camping-tent.jpg" alt="Camping">
+        <img class="card-img" src="../images/mountain-tent.jpg" alt="Mountain Tent">
+      </div>
+
+      <div class="card-title">
+        <img class="icon" src="../images/fire_icon.png" alt="fire icon">
+        <h2>Camping</h2>
+      </div>
+    </section>
+
+    <section class="rapids-card">
+      <div class="card-content">
+        <img class="card-img" src="../images/rapids.jpg" alt="Rapids">
+        <img class="card-img" src="../images/canoe.jpg" alt="Canoe">
+      </div>
+
+      <div class="card-title">
+        <img class="icon" src="../images/oars.png" alt="oars icon">
+        <h2>Rapids</h2>
+      </div>
+    </section>
+    
+    <!-- Background color section -->
+    <div id="background"></div>
+     <!-- Scenic section -->
+    <img class="mountains" src="../images/mt_reflection.jpg" alt="Mountain River">
+
+    <section class="msg">
+      <h2>More Than Just A Thrill</h2>
+      <p> Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. 
+          It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
+      <a class="join" href="rivers.html">Join Us</a>
+    </section>
+  </main>
+
+    <footer>
+      <p>Big Drop Outfitters &copy; 2025 | Pat Blau</p>
+      </p><a href="../bdo-site-plan.html">Site Plan</a><p>
+      </p><a href="contact.html">Contact Us</a></p>
+      <div class="social media">
+        <a href="https://facebook.com" target="_blank" rel="noopener"> 
+          <img src="../images/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">
+          <img src="../images/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">
+          <img src="../images/instagram.png" alt="Instagram">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body> 
+</html>
+
+<!-- https://patblau.github.io/wwd130/bdo-w5/ -->

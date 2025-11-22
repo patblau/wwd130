@@ -122,7 +122,7 @@ hr {
 
 .colors th,
 .colors td {
-    border: 20px solid var(--accent3-color); /* thin eggshell border */
+    border: 20px solid var(--accent4-color); /* thin eggshell border */
     padding: 4px;
 }
 

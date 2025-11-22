@@ -1,38 +1,104 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Give+You+Glory&display=swap');
+/* Google Fonts (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Give+You+Glory&display=swap');
 
-/* color palatte*/
+/* ROOT VARIABLES */
 :root {
-  --Font1: "Consolas", "Menlo", monospace; /* h3 */
-  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
-  --Font3: "Give You Glory", "Andika", "Cavolini", serif; /* h1 */
-  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
-  --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
+  /* Color palette (from your Coolors) */
+  --primary:  #396E94;
+  --secondary:#0F9ED5;
+  --accent1:  #63A7A9;
+  --accent2:  #3C7D22;
+  --accent3:  #49A443;
+  --accent4:  #FBE8C5; /* tan / eggshell-ish */
+  --accent5:  #FFFFFF;
+  --accent6:  #EFA765;
+  --accent7:  #E3642A;
+  --accent8:  #A43312;
+  --accent9:  #050300;
 
-/* COLOR & FONT VARIABLES */
-:root {
-  --primary-color:  #1669C2;
-  --secondary-color:#B77B13;
-  --accent1-color:  #3B5570;
-  --accent2-color:  black;
-  --accent3-color:  #FFF8E7;
-  --accent4-color:  #396E94;
-  --accent5-color:  #068BBF;
-  --accent6-color:  #F2D6A2;
+  --paper:    #FFFBFE;
+  --ink:      #050300;
+  --brand:    var(--primary);
+}
 
+/* BASIC PAGE LAYOUT – SITE PLAN ONLY */
+body.site-plan {
+  margin: 0;
+  font-family: "Baskerville", Arial, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+}
 
-/* Color palette squares */
-    --paper:   #FFFBFE;
-    --ink:     #050300;
-    --brand:   var(--primary);
-    --white:   #FFFFFF;
-    --heading-font: var(--Font2);
-    --paragraph-font: var(--Font5);
-    --paragraph-background-color: transparent;
-    --paragraph-color-on-white: #333333;
-    --headline-color-on-white: #068BBF;
-    --paragraph-color-on-color: #000000;
-    --nav-hover-link-color: #396E94;
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  line-height: 1.6;
+}
+
+/* HEADER – tighter to pull content up */
+header {
+  text-align: center;
+  padding: 0.75rem 1rem 0.5rem;  /* smaller padding */
+  background-color: var(--primary);
+  color: var(--accent5);
+}
+
+header h1 {
+  margin: 0.2rem 0;
+  font-family: "Give You Glory", "Segoe Print", cursive;
+}
+
+header h2 {
+  margin: 0.1rem 0;
+  font-family: "Big Caslon", "Times New Roman", serif;
+}
+
+/* LOGO – smaller, centered */
+.plan-logo {
+  display: block;
+  max-width: 140px;  /* about half of your original */
+  height: auto;
+  margin: 0.75rem auto 0.5rem;
+}
+
+/* HEADINGS & PARAGRAPHS */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--brand);
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 2px solid var(--brand);
+  margin: 1.8rem 0;
+}
+
+/* COLOR PALETTE TABLE */
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 1.5rem auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.colors th {
+  background-color: #999;
+  color: #fff;
+  padding: 0.4rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.colors td {
+  height: 3em;
 }
 
 /* Swatch colors */
@@ -48,84 +114,28 @@
 .accent8   { background-color: var(--accent8); }
 .accent9   { background-color: var(--accent9); }
 
-
-/*  Body Base for site-plan */
-body.site-plan {
-    margin: 0; /* w5 */
-    font-family: var(--Font5);
-    color: var(--ink);
-    text-align: center;
+/* TYPOGRAPHY EXAMPLES */
+.type-heading-example {
+  color: var(--secondary);
+  font-family: "Big Caslon", "Times New Roman", serif;
 }
 
-header h1 {
-  margin: 0.2rem 0;
-  font-family: var(--Font3);
+.type-heading-sample {
+  font-family: "Give You Glory", "Segoe Print", cursive;
+  color: var(--primary);
 }
 
-header h2 {
-  margin: 0.1rem 0;
-  font-family: var(--Font2);
-}
-
-/* HEADINGS & PARAGRAPHS */
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--Font2);
-    margin-top: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: var(--brand);
-}
-
-h2 {
-  color: #068BBF;
-  background-color: #F2F2F2;
-}
-
-p {
-  font-family: "Baskerville", Arial, sans-serif;
-  color: var(--ink);
-  margin: 0.5em 0;
+.type-paragraph-example {
+  border-left: 4px solid var(--secondary);
+  padding-left: 0.75rem;
 }
 
 /* Colored paragraph example */
-p.colored {
+.colored {
   background-color: var(--secondary);
-  color: var(--white);
+  color: var(--accent5);
   padding: 0.75rem;
   border-radius: 4px;
-}
-
-/* Horizontal rule */
-hr {
-  border: none;
-  border-top: 2px solid var(--brand);
-  margin: 2em 0;
-}
-
-/* LOGO IMAGE */
-.logo {
-  max-width: 200px;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-}
-
-/* COLOR PALETTE TABLE */
-.colors {
-  width: 100%;
-  min-width: 350px;
-  margin: 30px auto;
-  text-align: center;
-  border-collapse: collapse;
-}
-
-.colors th {
-  background-color: #999;
-  padding: 0.5rem;
-  color: white;
-}
-.colors td {
-  width: 25%;
-  height: 3em;
 }
 
 /* NAV PREVIEW */
@@ -153,480 +163,36 @@ a:hover {
   color: var(--secondary);
 }
 
-/* Paragraphs (W5) */
-p {
-  margin: 50px auto;
+/* IMAGE CARD EXAMPLE */
+.img-card {
+  text-align: center;
+  background-color: var(--accent5);
+  color: var(--brand);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 260px;
+  margin: 0.5rem auto 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
 }
 
-/* Default image border (W5) */
-img {
-  border: 4px solid steelblue;
-}
-/* SITE PLAN STYLES FOR THE MAIN WEBSITE BELOW */
-
-/* site header & Nav layout - w3*/
-header {
-    background-color: #068BBF; /* accent5 */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem; /* w5 */
-}
-
-#active {
-    background-color: #FFF8E7;
-    color: var(--primary-color);
-}
-
-.logo {
-    width: 50px;   /* w4 */
-    display: block; 
-}
-
-/* logo link - w3*/
-#logo_link {
-    justify-self: center;
-    align-self: center;
-    padding-top: 5px;
-}
-
-/* navigation bar - w3 Home..Contact Us */
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    background-color: #FFF8E7; /* w4/w5 */
-    padding: 25px; /* w5 */
-}
-
-/* nav links basic style - w3*/
-nav a {
-    padding: .25 px;  /* w3, w5 update */
-    min-width: 120px;
-    text-align: center;
-    color: #396E94; /* accent4 */
-    text-decoration: none;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-/* nav link hover - w4 */
-nav a:hover {
-    background-color: #396E94; /* accent4 */
-    color: #FFF8E7; /* accent3 */
-}
-
-/* active link - w3*/
-#active {
-    background-color: #fff8E7;
-    color: var(--primary-color);
-}
-
-/* HERO SECTION  */
-
-/* hero container - w3 */
-#hero {
-    position: relative;
-}
-
-/* hero image wrapper - w3 */
-#hero-box {
-    width: 100%;
-}
-
-/* hero image styling - w3 */
-#hero-img {
-    width: 100%;       /* w4 */
-    display: block;
-}
-
-/* hero text container - w3 */
-#hero-msg {
-    position: absolute;
-    top: 85%;           /* w4, w5 update */
-    left: 50%;          /* w4 */
-    transform: translate(-50%, -50%);
-    text-align: center;  /* w4 */
-    padding: 1rem 2rem;
-    background: transparent;
-}
-
-/* main hero title - w3 */
-#hero-msg .home-title {
-    font-family: var(--heading-font);
-    font-size: clamp(2.2rem, 4vw, 3.2rem);
-    margin: 0 0 0.3rem;
-    text-decoration: none;
-    background: none;
-    color: inherit
-};
-
-/* HERO SUBTITLE (h4 inside hero-msg) */
-#hero-msg h4 {
-    color: white;              
-    font-weight: 700;
-    margin: 0;
-    padding: 0.5rem 1rem;                       
-    border-radius: 6px;                         
-    display: inline-block;  
-    background: var(--accent1-color);                       
-}
-
-/*book now container - w3 */
-.button-box {
-    margin-top: 1rem;
-    text-align: center; /* w4 */
-    padding-bottom: 60px;
-}
-
-/* buttons (.book, .join) - w3 */
-.book,
-.join {
-    display: inline-block;
-    color: white;
-    background-color: var(--secondary-color);
-    text-decoration: none;  /* W4 */
-    font-size: 18px;          /* W5 */
-    padding: 0.6rem 1.4rem;
-    margin-top: 0.5rem;
-    border-radius: 4px;
-    font-weight: 600;
-} 
-
-/* button hover - w4 */
-.book:hover,
-.join:hover {
-    background-color: var(--primary-color);
-    color: white;
-}
-
-/* MAIN GRID – W3 structure + W4 enhancements */
-
-/* main grid container - w3 */
-main.home-grid {
-    padding: 2rem; 
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    align-items: start;
-}
-
-/* center sections in main grid - w4 */
-main.home-grid section {
-    text-align: center;
-}
-
-/* cards - w3 */
-.rivers-card,
-.camping-card,
-.rapids-card {
-    padding: 1rem;
-}
-
-.card-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;  
-}
-
-/* card images - w3 */
-.card-img {
-    width: 45%;  /* for two images */
-    max-width: 200px;
-    display: block;
-    margin: 0 auto 0.75rem;
-    border-radius: 10px;
-    border-color: var(--accent6-color);
-    box-sizing: border-box;  /* W5 box */
-}
-
-/* card titles - w3 */
-.card-title {
-     background-color: #FFF8E7; /* accent3 */
-     padding: 0.75rem 0;
-     border-radius: 10px;
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-     justify-content: center;
-     align-items: center;
-     gap: 0.75rem;
-}
-
-.card-title h2 {
-  margin: 0;
-  background: none;
-  color: var(--accent3-color);
-}
-
-/* Icon inside the strip */
-.card-title img {
-  width: 80px;
+.img-card img {
+  max-width: 100%;
+  height: auto;
   display: block;
-  margin: 0.5rem auto;
+  border-radius: 4px;
 }
 
-/* Card titles (don’t clip or make transparent here) */
-.card-title h2 {
-  margin: 0;
-  background: none;
-  color: #068BBF;  /* or whatever title color you want */
+.img-card .caption {
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
-/* icon images (width requirement) - w4 */
-.icon {
-    width: 80px;
-    display: block;
-    margin: 0.5rem auto;
-}
-
-/* background block under mountains+msg - w4 */ 
-#background {
-    height: 725px;   /* w4 */
-    background-color: var(--accent3-color);
-    grid-column: 1 / -1;  /* spans to full width */
-}
-
-/* mountains image below cards - w3*/
-.mountains {
-    width: 100%;
-    max-width: 900px;
-    display: block;
-    margin: -650px auto 0;  /* w4*/
-}
-
-/* message section - w3*/
-.msg {
-    background-color: var(--paragraph-background-color);
-    color: var(--accent3-color);
-    margin: 1.5rem auto 2rem;
-    max-width: 1800px;
-    border-radius: 0px;
-    padding: 2rem 1rem;
-    background-color: transparent;
-}
-
-/* message heading - w3 */
-.msg h2 {
-    color: var(--accent3-color);
-    margin-top: 150px;
-    background:none
-}
-
-/* H2 hero title with image showing through the letters */
-.image-text {
-  background-image: url("../images/hero3.jpg");
-  background-size: cover;
-  background-position: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;                 /* for most browsers */
-  -webkit-text-fill-color: transparent; /* for Chrome/Safari */
-}
-
-/* message paragraph - w3 */
-.msg p {
-    color: var(--accent3-color);
-    line-height: 1.6;
-}
-
-.subheading {
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    color: var(--accent3-color);
-    text-align: center;
-}
-
-/* FOOTER SECTION */
-
-/* footer layout - w3 */
+/* FOOTER – eggshell background, primary text */
 footer {
-    background-color: var(--accent4-color);
-    color: var(--accent3-color);
-    padding: 1.5rem 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* footer paragraph - w5 */
-footer p {
-    margin: 0.3rem 0;
-    font-size: 1.2em;  
-    padding: 25px;    
-}
-
-/* footer links - w3 */
-footer a {
-    color: var(--accent3-color); /* w4 update */
-    text-decoration: none;
-}
-
-/* footer link hover - w4 */
-footer a:hover {
-    color: var(--nav-hover-link-color);
-    text-decoration: underline;
-}
-
-/* social media icons container - w3 */
-.social-media {
-    display: flex;
-    gap: 2.5rem;
-    justify-content: center;
-    margin-top: 20px; 
-    width: 100%;
-}
-
-/* social icon size - w3 */
-.social {
-    width: 15px;
-    height: auto; 
-}
-
-/* for class="site-plan" on <body> in site plan page */
-
-body.site-plan {
-    background-color: #F2F2F2;
-    text-align: center;
-}
-
-
-.section-divider {
-    height: 4px;
-    width: 100%;
-    background-color: var(--accent3-color); /* eggshell */
-    border: none;
-    margin: 0 auto;
-}
-
-.site-plan {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 4em 1em;
-    font-size: 18px;
-}
-
-.site-plan img {
-    display: block;
-    margin: 0 auto;
-    max-width: 300px;
-}
-
-.site-plan h1,
-.site-plan h2,
-.site-plan h3,
-.site-plan h4,
-.site-plan h5,
-.site-plan h6 {
-    font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
-
-.site-plan h2 {
-    text-align: center;
-}
-
-.site-plan hr {
-    height: 3px;
-    margin: 35px 0;
-    background: var(--accent1-color);
-}
-
-.site-plan p {
-    font-family: var(--paragraph-font);
-    color: var(--paragraph-color-on-white);
-    padding: 1em;
-}
-
-/* Color palette */
-.colors {
-    width: 100%;
-    min-width: 350px;
-    margin: 30px auto;
-    text-align: center;
-}
-
-.colors th {
-    background-color: #999;
-}
-
-.colors td {
-    width: 25%;
-    height: 3em;
-}
-
-p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
-}
-
-/* Full-width eggshell divider between sections */
-.section-divider {
-    height: 4px;
-    width: 100%;
-    background-color: var(--accent3-color); /* eggshell */
-    border: none;
-    margin: 0 auto;
-}
-
-/* Sitemap grid  */
-.sitemap {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(6, 15%);
-    grid-template-rows: 3em 1.5em 1.5em 3em;
-    grid-template-areas:
-        ". . home home . ."
-        ". . . top . ."
-        ". left left right right ."
-        "page2 page2 . . page3 page3";
-    }
-
-.sitemap > div {
-    text-align: center;
-}
-
-.sm-home {
-    grid-area: home;
-    background-color: #ccc;
-    line-height: 3em;
-}
-
-.sm-page2 {
-    grid-area: page2;
-    background-color: #ccc;
-    line-height: 3em;
-}
-
-.sm-page3 {
-    grid-area: page3;
-    background-color: #ccc;
-    line-height: 3em;
-}
-
-.top {
-    grid-area: top;
-    border-left: 1px solid;
-}
-
-.left {
-    grid-area: left;
-    border-top: 1px solid;
-    border-left: 1px solid;
-}
-
-.right {
-    grid-area: right;
-    border-top: 1px solid;
-    border-right: 1px solid;
-}
-
-/* Site plan footer spacing */
-.site-plan footer {
-    padding: 25px 50px;
-    margin-top: 200px;
-}
-
-.site-plan footer .social img {
-    padding-top: 15px;
+  text-align: center;
+  background-color: var(--accent4);   /* eggshell/tan */
+  color: var(--primary);
+  padding: 0.75rem 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
 }

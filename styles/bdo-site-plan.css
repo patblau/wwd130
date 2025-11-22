@@ -87,6 +87,13 @@ p.colored {
     margin: 0 auto;    
 } 
 
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 2px solid var(--brand);
+  margin: 2em 0;
+}
+
 /* Paragraphs (W5) */
 p {
   margin: 50px auto;

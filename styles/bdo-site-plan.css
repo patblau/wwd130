@@ -55,13 +55,6 @@ header h2 {
   font-family: var(--Font2);
 }
 
-header {
-  text-align: center;
-  padding: 1.5rem 1rem;
-  background-color: var(--primary);
-  color: var(--accent5);
-}
-
 /* Headings Base */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);

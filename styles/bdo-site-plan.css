@@ -111,6 +111,16 @@ hr {
   border-collapse: collapse;
 }
 
+.colors th {
+  background-color: #999;
+  padding: 0.5rem;
+  color: white;
+}
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
 /* Paragraphs (W5) */
 p {
   margin: 50px auto;

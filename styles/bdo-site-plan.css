@@ -45,6 +45,7 @@ header {
   padding: 0.75rem 1rem 0.5rem;  /* smaller padding */
   background-color: var(--primary);
   color: var(--accent5);
+  text-indent: 5px;
 }
 
 header h1 {

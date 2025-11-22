@@ -61,11 +61,11 @@ header h2 {
 /* LOGO – smaller, centered */
 .plan-logo {
   display: block;
-  max-width: 180px;  /* about half of your original */
+  max-width: 225px;  /* about half of your original */
   height: auto;
   margin: 0.75rem auto 0.5rem;
   border: none;
-  margin-bottom: 40px;}
+  margin-bottom:80px;}
 
 /* HEADINGS & PARAGRAPHS */
 h1, h2, h3, h4, h5, h6 {

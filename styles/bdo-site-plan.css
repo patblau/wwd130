@@ -60,7 +60,7 @@ header h2 {
 /* LOGO – smaller, centered */
 .plan-logo {
   display: block;
-  max-width: 150px;  /* about half of your original */
+  max-width: 50%;  /* about half of your original */
   height: auto;
   margin: 0.75rem auto 0.5rem;
   border: none;

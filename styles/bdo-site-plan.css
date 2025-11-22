@@ -65,7 +65,7 @@ header h2 {
   height: auto;
   margin: 0.75rem auto 0.5rem;
   border: none;
-}
+  margin-bottom: 40px;}
 
 /* HEADINGS & PARAGRAPHS */
 h1, h2, h3, h4, h5, h6 {

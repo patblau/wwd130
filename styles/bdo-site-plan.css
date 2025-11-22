@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   color: #068BBF;
+  background-color: #F2F2F2;
 }
 
 p {
@@ -152,7 +153,6 @@ a:hover {
   color: var(--secondary);
 }
 
-
 /* Paragraphs (W5) */
 p {
   margin: 50px auto;
@@ -162,10 +162,9 @@ p {
 img {
   border: 4px solid steelblue;
 }
+/* SITE PLAN STYLES FOR THE MAIN WEBSITE BELOW */
 
-/* HEADER & NAV */
-
-/* header layout - w3*/
+/* site header & Nav layout - w3*/
 header {
     background-color: #068BBF; /* accent5 */
     display: flex;

@@ -50,6 +50,11 @@ header h1 {
   font-family: var(--Font3);
 }
 
+header h2 {
+  margin: 0.1rem 0;
+  font-family: var(--Font2);
+}
+
 header {
   text-align: center;
   padding: 1.5rem 1rem;

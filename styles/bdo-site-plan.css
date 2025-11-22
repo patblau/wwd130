@@ -1,6 +1,14 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Give+You+Glory&display=swap');
 
+/* color palatte*/
+:root {
+  --Font1: "Consolas", "Menlo", monospace; /* h3 */
+  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
+  --Font3: "Give You Glory", "Andika", "Cavolini", serif; /* h1 */
+  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
+  --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
+
 /* COLOR & FONT VARIABLES */
 :root {
   --primary-color:  #1669C2;
@@ -11,41 +19,22 @@
   --accent4-color:  #396E94;
   --accent5-color:  #068BBF;
   --accent6-color:  #F2D6A2;
-}
+
 
 /* Color palette squares */
-.primary   { background-color: var(--primary-color); }
-.secondary { background-color: var(--secondary-color); }
-.accent1   { background-color: var(--accent1-color); }
-.accent2   { background-color: var(--accent2-color); }
-.accent3   { background-color: var(--accent3-color); }
-.accent4   { background-color: var(--accent4-color); }
-.accent5   { background-color: var(--accent5-color); }
-.accent6   { background-color: var(--accent6-color); }
-
-/* Basic CSS variables used below */
-:root {
-  --Font1: "Consolas", "Menlo", monospace; /* h3 */
-  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
-  --Font3: "Give You Glory", "Andika", "Cavolini", serif; /* h1 */
-  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif; /* h4 */
-  --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
-
-  /* Common aliases used elsewhere in the stylesheet */
-  --heading-font: var(--Font2);
-  --paragraph-font: var(--Font5);
-  --paragraph-background-color: transparent;
-  --paragraph-color-on-white: #333333;
-  --headline-color-on-white: #068BBF;
-  --paragraph-color-on-color: #000000;
-  --nav-hover-link-color: #396E94;
+    --paper:   #FFFBFE;
+    --ink:     #050300;
+    --brand:   var(--primary);
+    --white:   #FFFFFF;
+    --heading-font: var(--Font2);
+    --paragraph-font: var(--Font5);
+    --paragraph-background-color: transparent;
+    --paragraph-color-on-white: #333333;
+    --headline-color-on-white: #068BBF;
+    --paragraph-color-on-color: #000000;
+    --nav-hover-link-color: #396E94;
 }
 
-/* Global Reset base */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
 }
 
 /*  Body Base  */

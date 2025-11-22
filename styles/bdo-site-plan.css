@@ -132,6 +132,12 @@ hr {
   margin: 0.5em 0 1em;
 }
 
+.plan-nav a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: var(--brand);
+  font-weight: 600;
+}
 
 /* Paragraphs (W5) */
 p {

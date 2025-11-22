@@ -67,6 +67,12 @@ h2 {
   color: #068BBF;
 }
 
+p {
+  font-family: "Baskerville", Arial, sans-serif;
+  color: var(--ink);
+  margin: 0.5em 0;
+}
+
 /* Container - w4 */
 #content {
     max-width: 1600px;  

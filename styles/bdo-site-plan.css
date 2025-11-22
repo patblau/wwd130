@@ -36,12 +36,18 @@
 }
 
 
-/*  Body Base  */
+/*  Body Base for site-plan */
 body.site-plan {
     margin: 0; /* w5 */
     font-family: var(--Font5);
     color: var(--ink);
     text-align: center;
+
+}
+
+header h1 {
+  margin: 0.2rem 0;
+  font-family: var(--Font3);
 }
 
 header {

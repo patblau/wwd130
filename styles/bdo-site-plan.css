@@ -35,14 +35,12 @@
     --nav-hover-link-color: #396E94;
 }
 
-}
 
 /*  Body Base  */
-body {
+body.site-plan {
     margin: 0; /* w5 */
-    font-family: var(--paragraph-font);
-    color: white;
-    background-color: var(--accent5-color);
+    font-family: var(--Font5);
+    color: var(--ink);
     text-align: center;
 }
 

@@ -94,6 +94,14 @@ hr {
   margin: 2em 0;
 }
 
+/* LOGO IMAGE */
+.logo {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
 /* Paragraphs (W5) */
 p {
   margin: 50px auto;

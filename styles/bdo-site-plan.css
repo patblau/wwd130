@@ -139,6 +139,20 @@ hr {
   font-weight: 600;
 }
 
+.plan-nav a:hover {
+  color: var(--secondary);
+}
+
+/* LINKS IN TEXT */
+a {
+  color: var(--brand);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+
 /* Paragraphs (W5) */
 p {
   margin: 50px auto;

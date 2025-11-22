@@ -1,0 +1,425 @@
+/* Google Fonts used on the live site */
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Give+You+Glory&display=swap');
+
+/* COLOR & FONT VARIABLES */
+:root {
+  --primary-color:  #1669C2;   /* main blue */
+  --secondary-color:#B77B13;   /* warm gold (buttons) */
+  --accent1-color:  #3B5570;   /* deep slate */
+  --accent2-color:  #000000;   /* black */
+  --accent3-color:  #FFF8E7;   /* eggshell */
+  --accent4-color:  #396E94;   /* darker blue for nav/footer */
+  --accent5-color:  #068BBF;   /* bright blue (body bg) */
+  --accent6-color:  #F2D6A2;   /* sand */
+
+  /* Fonts */
+  --Font1: "Consolas", "Menlo", monospace;                 /* h3 */
+  --Font2: "Big Caslon", "Cavolini", "Chalkboard", sans-serif; /* h2 */
+  --Font3: "Give You Glory", "Andika", "Cavolini", serif;  /* h1 */
+  --Font4: "Cavolini","Bradley Hand", "Al Bayan", serif;   /* h4 */
+  --Font5: "Al Bayan", "Cavolini", "Chalkboard", sans-serif; /* p */
+
+  --heading-font: var(--Font2);
+  --paragraph-font: var(--Font5);
+  --paragraph-background-color: rgba(59, 85, 112, 0.9); /* slightly translucent accent1 */
+  --paragraph-color-on-white: #333333;
+  --headline-color-on-white: #068BBF;
+  --paragraph-color-on-color: #FFFFFF;
+  --nav-hover-link-color: #396E94;
+}
+
+/* GLOBAL RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* BODY BASE (W5: background color and centering) */
+body {
+  margin: 0;
+  font-family: var(--paragraph-font);
+  color: #ffffff;
+  background-color: var(--accent5-color); /* bright blue */
+}
+
+/* CONTAINER (W3/W4/W5: #content) */
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  margin-top: 0;
+}
+
+.home-title {
+  font-family: var(--Font3);
+}
+
+/* PARAGRAPHS (W5: margin & readability) */
+p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+/* DEFAULT IMAGE BORDER (W5 example) */
+img {
+  border: 4px solid steelblue;
+  box-sizing: border-box;
+}
+
+/* HEADER & NAV (W3, W4, W5)*/
+
+header {
+  background-color: #068BBF; /* accent5 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  height: auto;
+  display: block;
+  border: none; /* don’t border the logo */
+}
+
+#logo_link {
+  justify-self: center;
+  align-self: center;
+  padding-top: 5px;
+}
+
+/* NAV BAR */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  background-color: #FFF8E7; /* accent3 eggshell */
+  padding: 0.75rem 1.5rem;
+}
+
+/* nav links basic style (W3: centering, W5: text-decoration) */
+nav a {
+  min-width: 120px;
+  text-align: center;
+  color: #396E94; /* accent4 */
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+/* active link (current page) */
+#active {
+  background-color: #FFF8E7;
+  color: var(--primary-color);
+}
+
+/* nav link hover (W4: background & text color) */
+nav a:hover {
+  background-color: #396E94; /* accent4 */
+  color: #FFF8E7;           /* accent3 */
+}
+
+/* HERO SECTION (W3/W4/W5)       */
+#hero {
+  position: relative;
+}
+
+#hero-box {
+  width: 100%;
+}
+
+#hero-img {
+  width: 100%;
+  display: block;
+}
+
+/* hero text overlay */
+#hero-msg {
+  position: absolute;
+  top: 85%;              /* adjusted for placement */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1rem 2rem;
+  background: transparent;
+}
+
+#hero-msg .home-title {
+  font-family: var(--Font3);
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  margin: 0 0 0.3rem;
+  color: #FFFFFF;
+}
+
+#hero-msg h4 {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  display: inline-block;
+  background: var(--accent1-color);
+}
+
+/* BUTTONS (book/join) */
+.button-box {
+  margin-top: 1rem;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.book,
+.join {
+  display: inline-block;
+  color: white;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0.6rem 1.4rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+}
+
+/* button hover */
+.book:hover,
+.join:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+
+/* MAIN GRID (HOME PAGE) */
+
+main.home-grid {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: start;
+}
+
+main.home-grid section {
+  text-align: center;
+}
+
+/* cards */
+.rivers-card,
+.camping-card,
+.rapids-card {
+  padding: 1rem;
+}
+
+/* card images row */
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* card images */
+.card-img {
+  width: 45%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 0.75rem;
+  border-radius: 10px;
+  border-color: var(--accent6-color);
+}
+
+/* card title strip */
+.card-title {
+  background-color: #FFF8E7;
+  padding: 0.75rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title h2 {
+  margin: 0;
+  background: none;
+  color: #068BBF;
+}
+
+.card-title img,
+.icon {
+  width: 80px;
+  display: block;
+  margin: 0.5rem auto;
+  border: none;
+}
+
+/* background block behind message (W4 requirement) */
+#background {
+  height: 725px;
+  background-color: var(--accent3-color);
+  grid-column: 1 / -1;
+}
+
+/* scenic mountains image below cards */
+.mountains {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: -650px auto 0;
+}
+
+
+/* MESSAGE SECTION (HOME & SUB) */
+
+.msg {
+  margin: 1.5rem auto 2rem;
+  max-width: 900px;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  background-color: var(--paragraph-background-color); /* W5: background-color set */
+}
+
+.msg h2 {
+  color: var(--accent3-color);
+  margin-top: 0;
+}
+
+.msg p {
+  color: var(--paragraph-color-on-color);
+}
+
+/* On subpages, don’t push headings down */
+.subpage .msg {
+  max-width: 900px;
+}
+
+.subpage .msg h2 {
+  margin-top: 0;
+}
+
+/* If you use image-text H2 anywhere */
+.image-text {
+  background-image: url("../images/hero3.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SUBPAGE STYLES (Contact/About)*/
+main.subpage {
+  padding: 2rem 1.5rem 3rem;
+}
+
+/* hero strip on contact/about page */
+.hero-strip {
+  background-color: var(--accent3-color);
+  color: var(--accent4-color);
+  padding: 1.5rem 1rem 2rem;
+  text-align: center;
+}
+
+.hero-strip .home-title {
+  color: var(--accent4-color);
+}
+
+.hero-strip-img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+/* full-width eggshell divider between sections */
+.section-divider {
+  height: 4px;
+  width: 100%;
+  background-color: var(--accent3-color);
+  border: none;
+  margin: 1.5rem auto;
+}
+
+/* contact info block with tighter spacing */
+.contact-info p {
+  margin: 0.25rem 0;
+}
+
+/* contact form basic styling */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 0.75rem;
+  font-family: var(--paragraph-font);
+}
+
+/* reuse .book as submit button */
+button.book {
+  cursor: pointer;
+}
+
+
+/* FOOTER (W3–W5)                */
+footer {
+  background-color: var(--accent4-color);
+  color: var(--accent3-color);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 1.0em;
+}
+
+/* footer links */
+footer a {
+  color: var(--accent3-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--nav-hover-link-color);
+  text-decoration: underline;
+}
+
+/* social media icons */
+.social-media {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.social {
+  width: 20px;
+  height: auto;
+  border: none;
+}

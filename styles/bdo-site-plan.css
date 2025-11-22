@@ -55,7 +55,6 @@ body.site-plan {
     font-family: var(--Font5);
     color: var(--ink);
     text-align: center;
-
 }
 
 header h1 {
@@ -94,12 +93,6 @@ p.colored {
   border-radius: 4px;
 }
 
-/* Container - w4 */
-#content {
-    max-width: 1600px;  
-    margin: 0 auto;    
-} 
-
 /* Horizontal rule */
 hr {
   border: none;
@@ -133,6 +126,12 @@ hr {
   width: 25%;
   height: 3em;
 }
+
+/* NAV PREVIEW */
+.plan-nav {
+  margin: 0.5em 0 1em;
+}
+
 
 /* Paragraphs (W5) */
 p {

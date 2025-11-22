@@ -55,10 +55,12 @@ header h2 {
   font-family: var(--Font2);
 }
 
-/* Headings Base */
+/* HEADINGS & PARAGRAPHS */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    margin-top: 0;
+    font-family: var(--Font2);
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--brand);
 }
 
 h2 {

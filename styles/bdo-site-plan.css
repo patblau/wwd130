@@ -108,12 +108,12 @@ hr {
 }
 
 /* Swatch colors */
-.primary   { background-color: var(--primary); }
+.primary   { background-color: var(--snow); color; var(--primary); }
 .secondary { background-color: var(--secondary); }
 .accent1   { background-color: var(--accent1); }
 .accent2   { background-color: var(--accent2); }
 .accent3   { background-color: var(--accent3); }
-.accent4   { background-color: var(--accent4); }
+.accent4   { background-color: var(--accent4); color: black}
 .accent5   { background-color: var(--accent5); }
 .accent6   { background-color: var(--accent6); }
 .accent7   { background-color: var(--accent7); }

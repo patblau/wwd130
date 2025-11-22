@@ -120,6 +120,12 @@ hr {
 .accent8   { background-color: var(--accent8); }
 .accent9   { background-color: var(--accent9); }
 
+.colors th,
+.colors td {
+    border: 2px solid var(--accent3-color); /* thin eggshell border */
+    padding: 4px;
+}
+
 /* TYPOGRAPHY EXAMPLES */
 .type-heading-example {
   color: var(--secondary);

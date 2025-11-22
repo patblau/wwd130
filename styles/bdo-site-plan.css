@@ -61,7 +61,7 @@ header h2 {
 /* LOGO – smaller, centered */
 .plan-logo {
   display: block;
-  max-width: 150px;  /* about half of your original */
+  max-width: 180px;  /* about half of your original */
   height: auto;
   margin: 0.75rem auto 0.5rem;
   border: none;
@@ -108,7 +108,7 @@ hr {
 }
 
 /* Swatch colors */
-.primary   { background-color: var(--snow); color; var(--primary); }
+.primary   { background-color: var(--snow) color: var(--primary); }
 .secondary { background-color: var(--secondary); }
 .accent1   { background-color: var(--accent1); }
 .accent2   { background-color: var(--accent2); }
